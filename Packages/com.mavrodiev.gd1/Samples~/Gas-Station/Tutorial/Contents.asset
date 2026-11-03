@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Contents
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialContainer
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 0}
+  OrderInParent: 0
+  Sections:
+  - Heading:
+      m_Untranslated: Introduction
+    Text:
+      m_Untranslated: 'A night gas station in fog and rain:'
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: dbeba1ecf3312bc4b80fba7a10cba795, type: 2}
+  - Heading:
+      m_Untranslated: "0 \xB7 Before you start: the project"
+    Text:
+      m_Untranslated: The scene needs four renderer features and a few settings in the URP Asset.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 0f6218483ef28524fa4a3ac9ff52c1c8, type: 2}
+  - Heading:
+      m_Untranslated: "1 \xB7 The ground and the layout"
+    Text:
+      m_Untranslated: "All the geometry is made with ProBuilder (Tools \u203A ProBuilder \u203A ProBuilder Window)."
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: dd08c7b7e46e15c4c91889ef8947da99, type: 2}
+  - Heading:
+      m_Untranslated: "2 \xB7 The island and the pumps"
+    Text:
+      m_Untranslated: The curb.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 9e846d77fcd5c1c44807168e96118f57, type: 2}
+  - Heading:
+      m_Untranslated: "3 \xB7 The canopy"
+    Text:
+      m_Untranslated: The slab.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 7cb7e23fb2884e74caa3efa0fdb63e6f, type: 2}
+  - Heading:
+      m_Untranslated: "4 \xB7 The kiosk, the sign and the backdrop"
+    Text:
+      m_Untranslated: "The kiosk stands at (9.2, 0, 4.32), turned 65\xB0, so its front faces the station."
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 5c80b89ea85773c40969a92bfc62ce0c, type: 2}
+  - Heading:
+      m_Untranslated: "5 \xB7 Materials and textures"
+    Text:
+      m_Untranslated: "Every surface uses Universal Render Pipeline/Lit, except the wet ground (\xA7 6) and the rain (\xA7 12)."
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: af90c890787f03448ac89ac57902bd04, type: 2}
+  - Heading:
+      m_Untranslated: "6 \xB7 The wet ground"
+    Text:
+      m_Untranslated: 'The forecourt uses its own shader, Gas-Station/Lit Wet Ground:'
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 23580ccc68e228549b20e09ff2344749, type: 2}
+  - Heading:
+      m_Untranslated: "7 \xB7 The camera"
+    Text:
+      m_Untranslated: The frame is decided before the lights, because lights are placed for what the camera sees.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 0243654d5fe286646b3652e2f6147b82, type: 2}
+  - Heading:
+      m_Untranslated: "8 \xB7 Night: the sky and the ambient"
+    Text:
+      m_Untranslated: 'Open the Lighting window:'
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 633b23fc605bc6249923330042a5ad89, type: 2}
+  - Heading:
+      m_Untranslated: "9 \xB7 The lights"
+    Text:
+      m_Untranslated: URP's rectangle (area) lights work only with baked lighting, so the fluorescent fixtures are made from spot and point lights.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: f9776e402d0a42046bc2fde7dc40d10d, type: 2}
+  - Heading:
+      m_Untranslated: "10 \xB7 The fog and the light shafts"
+    Text:
+      m_Untranslated: "The fog comes from the Volumetric Fog renderer feature (\xA7 0)."
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 768d9ac6662c8c54ca7d0964bf42f98c, type: 2}
+  - Heading:
+      m_Untranslated: "11 \xB7 Reflections on the wet ground"
+    Text:
+      m_Untranslated: A smooth surface shows what is around it.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: f1afb2b02932f824abd953befb75415b, type: 2}
+  - Heading:
+      m_Untranslated: "12 \xB7 The rain"
+    Text:
+      m_Untranslated: "The rain is four Particle Systems (GameObject \u203A Effects \u203A Particle System) under an empty Rain at y = 12, turned \u221225\xB0 like the station."
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: dd2219bca8158024f8b9b011b2902478, type: 2}
+  - Heading:
+      m_Untranslated: "13 \xB7 Post-processing"
+    Text:
+      m_Untranslated: Post-processing works on the finished image, after everything above.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 6f3fadf238b253d4f8335e0f257ae88a, type: 2}
+  - Heading:
+      m_Untranslated: "14 \xB7 The flickering tube (optional)"
+    Text:
+      m_Untranslated: Fixture 1, the one nearest the camera, flickers like a failing fluorescent tube.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 3f398f8dc09e0724da5896ce6468f907, type: 2}
+  - Heading:
+      m_Untranslated: References and additional materials
+    Text:
+      m_Untranslated: '- Unity Manual (Unity 6):'
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 51661f40c1ad19640b8d9bf4745e2e79, type: 2}
+  Title:
+    m_Untranslated: Gas Station
+  Subtitle:
+    m_Untranslated: Building the scene layer by layer
+  BackgroundImage: {fileID: 0}
+  ProjectLayout: {fileID: 0}
+  FaqEntries: []

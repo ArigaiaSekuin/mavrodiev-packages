@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6555757424336241681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6163657234625822511}
+  - component: {fileID: 4324524870276044392}
+  - component: {fileID: 1411895975431815347}
+  m_Layer: 0
+  m_Name: Decal_Rain-Ripples
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6163657234625822511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555757424336241681}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4324524870276044392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555757424336241681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.DecalProjector
+  m_Material: {fileID: 2100000, guid: 1492de6d4932cfb429cca3a33a39d52d, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_RenderingLayerMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.2}
+  m_Size: {x: 2, y: 2, z: 0.4}
+  m_FadeFactor: 1
+  m_VisibleInScene: 1
+  version: 1
+  m_DecalLayerMask: 1
+--- !u!114 &1411895975431815347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555757424336241681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e8105191f190214287c8c510e462c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Mavrodiev.Toolbox.RippleFlipbook
+  material: {fileID: 0}
+  frames:
+  - {fileID: 2800000, guid: 9e0254f4c4a330f4d8c20691d06e6353, type: 3}
+  - {fileID: 2800000, guid: 61d37470c8d6e0d47a7ffc4c9effdce9, type: 3}
+  - {fileID: 2800000, guid: ca437113da5dce54a998851e7c778741, type: 3}
+  - {fileID: 2800000, guid: 5bc6c55f1520bac41a013afd40e2355b, type: 3}
+  - {fileID: 2800000, guid: aaf07c0e56d36364491fe298bf0577dd, type: 3}
+  - {fileID: 2800000, guid: 5daeffa15338638408b0a521c6a3c15a, type: 3}
+  - {fileID: 2800000, guid: 85efa2d0fd7f26644830b8677fe66beb, type: 3}
+  - {fileID: 2800000, guid: 196785502092e2b449db28f879651bea, type: 3}
+  - {fileID: 2800000, guid: 85bb99922ece89248b2d59e574a7c23f, type: 3}
+  - {fileID: 2800000, guid: 2b0fbc862e7f2ae478f1933b6b123171, type: 3}
+  - {fileID: 2800000, guid: bfaf5055cf9b92f49a0e323e16b9e4ba, type: 3}
+  - {fileID: 2800000, guid: 13ebde5c89b9f2e4cb60a52f91422003, type: 3}
+  - {fileID: 2800000, guid: 14d5db5b43ef6a34cb84ad4cc2fc8bff, type: 3}
+  - {fileID: 2800000, guid: ab3d6fa888853e645912436a94b3c167, type: 3}
+  - {fileID: 2800000, guid: f032b8c650478354b8eed7db82aed1d0, type: 3}
+  - {fileID: 2800000, guid: 25c023bf3cb615c4eb4b1523c4816935, type: 3}
+  framesPerSecond: 20
+  property: Normal_Map
+  animateInEditMode: 0

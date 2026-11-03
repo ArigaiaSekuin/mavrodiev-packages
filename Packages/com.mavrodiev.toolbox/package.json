@@ -1,12 +1,61 @@
 {
   "name": "com.mavrodiev.toolbox",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Toolbox",
   "description": "Low-level Unity tools (code, shaders, editor tools), each with a showcase sample.",
   "unity": "6000.0",
-  "author": { "name": "Petar A. Mavrodiev" },
+  "author": {
+    "name": "Petar A. Mavrodiev"
+  },
   "license": "MIT",
-  "keywords": [ "teaching", "unity" ],
-  "dependencies": {},
-  "samples": []
+  "keywords": [
+    "teaching",
+    "unity"
+  ],
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.0.3",
+    "com.unity.probuilder": "6.1.3"
+  },
+  "samples": [
+    {
+      "displayName": "Camera Showcase",
+      "description": "",
+      "path": "Samples~/Camera-Showcase"
+    },
+    {
+      "displayName": "Light And Space Showcase",
+      "description": "",
+      "path": "Samples~/Light-And-Space-Showcase"
+    },
+    {
+      "displayName": "Mesh Tools Showcase",
+      "description": "",
+      "path": "Samples~/Mesh-Tools-Showcase"
+    },
+    {
+      "displayName": "Reflections Showcase",
+      "description": "",
+      "path": "Samples~/Reflections-Showcase"
+    },
+    {
+      "displayName": "Skies Showcase",
+      "description": "",
+      "path": "Samples~/Skies-Showcase"
+    },
+    {
+      "displayName": "Surfaces Showcase",
+      "description": "",
+      "path": "Samples~/Surfaces-Showcase"
+    },
+    {
+      "displayName": "Texture Tools Showcase",
+      "description": "",
+      "path": "Samples~/Texture-Tools-Showcase"
+    },
+    {
+      "displayName": "Weathering Showcase",
+      "description": "",
+      "path": "Samples~/Weathering-Showcase"
+    }
+  ]
 }

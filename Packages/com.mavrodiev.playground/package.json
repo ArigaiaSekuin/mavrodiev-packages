@@ -1,18 +1,96 @@
 {
   "name": "com.mavrodiev.playground",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Playground",
   "description": "Playgrounds for learning Unity, topic by topic, each with its exercises.",
   "unity": "6000.5",
-  "author": { "name": "Petar A. Mavrodiev" },
+  "author": {
+    "name": "Petar A. Mavrodiev"
+  },
   "license": "MIT",
-  "keywords": [ "teaching", "unity" ],
+  "keywords": [
+    "teaching",
+    "unity"
+  ],
   "dependencies": {
-    "com.mavrodiev.toolbox": "1.0.0",
-    "com.mavrodiev.asset-library": "1.0.0",
-    "com.unity.learn.iet-framework": "6.0.7"
+    "com.mavrodiev.toolbox": "1.1.0",
+    "com.mavrodiev.asset-library": "1.1.0",
+    "com.unity.learn.iet-framework": "6.0.7",
+    "com.unity.probuilder": "6.1.3",
+    "com.unity.splines": "2.9.1",
+    "com.cqf.urpvolumetricfog": "0.5.91"
   },
   "samples": [
+    {
+      "displayName": "00 · Unity Basics",
+      "description": "",
+      "path": "Samples~/00-Unity-Basics"
+    },
+    {
+      "displayName": "01 · Meshes",
+      "description": "",
+      "path": "Samples~/01-Meshes"
+    },
+    {
+      "displayName": "02 · Materials",
+      "description": "",
+      "path": "Samples~/02-Materials"
+    },
+    {
+      "displayName": "03 · Textures",
+      "description": "",
+      "path": "Samples~/03-Textures"
+    },
+    {
+      "displayName": "04 · Weathering",
+      "description": "",
+      "path": "Samples~/04-Weathering"
+    },
+    {
+      "displayName": "05 · Shaders",
+      "description": "",
+      "path": "Samples~/05-Shaders"
+    },
+    {
+      "displayName": "06 · Lights",
+      "description": "",
+      "path": "Samples~/06-Lights"
+    },
+    {
+      "displayName": "07 · Environment",
+      "description": "",
+      "path": "Samples~/07-Environment"
+    },
+    {
+      "displayName": "08 · Atmosphere",
+      "description": "",
+      "path": "Samples~/08-Atmosphere"
+    },
+    {
+      "displayName": "09 · VFX",
+      "description": "",
+      "path": "Samples~/09-VFX"
+    },
+    {
+      "displayName": "10 · Camera",
+      "description": "",
+      "path": "Samples~/10-Camera"
+    },
+    {
+      "displayName": "11 · Post Processing",
+      "description": "",
+      "path": "Samples~/11-Post-Processing"
+    },
+    {
+      "displayName": "12 · Sound",
+      "description": "",
+      "path": "Samples~/12-Sound"
+    },
+    {
+      "displayName": "13 · URP",
+      "description": "",
+      "path": "Samples~/13-URP"
+    },
     {
       "displayName": "Tutorial Test",
       "description": "One station (Materials C, base colour within limits) with its in-editor tutorial: a test of the tutorial pipeline.",

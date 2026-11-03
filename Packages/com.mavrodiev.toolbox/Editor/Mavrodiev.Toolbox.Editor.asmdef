@@ -1,8 +1,16 @@
 {
     "name": "Mavrodiev.Toolbox.Editor",
     "rootNamespace": "Mavrodiev.Toolbox.Editor",
-    "references": [ "Mavrodiev.Toolbox" ],
-    "includePlatforms": [ "Editor" ],
+    "references": [
+        "Mavrodiev.Toolbox",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Universal.Editor",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
