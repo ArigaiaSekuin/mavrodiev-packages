@@ -1,0 +1,12 @@
+{
+  "name": "com.mavrodiev.toolbox",
+  "version": "1.0.0",
+  "displayName": "Toolbox",
+  "description": "Low-level Unity tools (code, shaders, editor tools), each with a showcase sample.",
+  "unity": "6000.0",
+  "author": { "name": "Petar A. Mavrodiev" },
+  "license": "MIT",
+  "keywords": [ "teaching", "unity" ],
+  "dependencies": {},
+  "samples": []
+}

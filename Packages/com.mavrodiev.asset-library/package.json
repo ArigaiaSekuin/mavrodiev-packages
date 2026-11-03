@@ -1,0 +1,12 @@
+{
+  "name": "com.mavrodiev.asset-library",
+  "version": "1.0.0",
+  "displayName": "Asset Library",
+  "description": "Free-licence assets (CC0, CC-BY, or my own) for building scenes.",
+  "unity": "6000.0",
+  "author": { "name": "Petar A. Mavrodiev" },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [ "teaching", "unity" ],
+  "dependencies": {},
+  "samples": []
+}

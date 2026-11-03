@@ -1,0 +1,15 @@
+{
+  "name": "com.mavrodiev.playground",
+  "version": "1.0.0",
+  "displayName": "Playground",
+  "description": "Playgrounds for learning Unity, topic by topic, each with its exercises.",
+  "unity": "6000.0",
+  "author": { "name": "Petar A. Mavrodiev" },
+  "license": "MIT",
+  "keywords": [ "teaching", "unity" ],
+  "dependencies": {
+    "com.mavrodiev.toolbox": "1.0.0",
+    "com.mavrodiev.asset-library": "1.0.0"
+  },
+  "samples": []
+}

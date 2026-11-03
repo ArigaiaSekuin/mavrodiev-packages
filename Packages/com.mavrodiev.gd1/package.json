@@ -1,0 +1,16 @@
+{
+  "name": "com.mavrodiev.gd1",
+  "version": "26.0.0",
+  "displayName": "GD1",
+  "description": "Game Development 1 (NABA, AY26-27): the lessons and the full scenes, as samples.",
+  "unity": "6000.0",
+  "author": { "name": "Petar A. Mavrodiev" },
+  "license": "MIT",
+  "keywords": [ "teaching", "unity" ],
+  "dependencies": {
+    "com.mavrodiev.playground": "1.0.0",
+    "com.mavrodiev.toolbox": "1.0.0",
+    "com.mavrodiev.asset-library": "1.0.0"
+  },
+  "samples": []
+}
