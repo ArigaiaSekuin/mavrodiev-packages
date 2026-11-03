@@ -1,0 +1,16 @@
+{
+    "name": "Mavrodiev.Tutorials.Editor",
+    "rootNamespace": "Mavrodiev.Tutorials.Editor",
+    "references": [ "Unity.Tutorials.Editor" ],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        { "name": "com.unity.learn.iet-framework.authoring", "expression": "1.0.0", "define": "MAVRODIEV_TUTORIAL_AUTHORING" }
+    ],
+    "noEngineReferences": false
+}

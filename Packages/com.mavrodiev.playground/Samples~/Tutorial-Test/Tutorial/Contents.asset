@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Contents
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialContainer
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 0}
+  OrderInParent: 0
+  Sections:
+  - Heading:
+      m_Untranslated: 'Station C: Base colour within limits'
+    Text:
+      m_Untranslated: Predict which spheres are outside the range, then bring them inside it.
+    Type: 0
+    Url: 
+    Metadata: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 8f0b657e1878bc747a408b5410a8697b, type: 2}
+  Title:
+    m_Untranslated: 'Playground: Tutorial test'
+  Subtitle:
+    m_Untranslated: One station, to test the tutorial pipeline.
+  BackgroundImage: {fileID: 0}
+  ProjectLayout: {fileID: 0}
+  FaqEntries: []

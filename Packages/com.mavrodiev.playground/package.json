@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "displayName": "Playground",
   "description": "Playgrounds for learning Unity, topic by topic, each with its exercises.",
-  "unity": "6000.0",
+  "unity": "6000.5",
   "author": { "name": "Petar A. Mavrodiev" },
   "license": "MIT",
   "keywords": [ "teaching", "unity" ],
   "dependencies": {
     "com.mavrodiev.toolbox": "1.0.0",
-    "com.mavrodiev.asset-library": "1.0.0"
+    "com.mavrodiev.asset-library": "1.0.0",
+    "com.unity.learn.iet-framework": "6.0.7"
   },
-  "samples": []
+  "samples": [
+    {
+      "displayName": "Tutorial Test",
+      "description": "One station (Materials C, base colour within limits) with its in-editor tutorial: a test of the tutorial pipeline.",
+      "path": "Samples~/Tutorial-Test"
+    }
+  ]
 }

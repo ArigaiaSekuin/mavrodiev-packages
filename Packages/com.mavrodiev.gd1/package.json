@@ -3,7 +3,7 @@
   "version": "26.0.0",
   "displayName": "GD1",
   "description": "Game Development 1 (NABA, AY26-27): the lessons and the full scenes, as samples.",
-  "unity": "6000.0",
+  "unity": "6000.5",
   "author": { "name": "Petar A. Mavrodiev" },
   "license": "MIT",
   "keywords": [ "teaching", "unity" ],
