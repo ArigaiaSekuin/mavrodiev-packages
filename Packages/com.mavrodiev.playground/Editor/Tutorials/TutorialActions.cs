@@ -16,7 +16,7 @@ namespace Mavrodiev.Tutorials.Editor
         public void ShowCamera(string cameraName)
         {
             Camera target = null;
-            foreach (Camera camera in Object.FindObjectsByType<Camera>(FindObjectsInactive.Include))
+            foreach (Camera camera in Object.FindObjectsByType<Camera>(FindObjectsInactive.Include, FindObjectsSortMode.None))
             {
                 bool on = camera.name == cameraName;
                 camera.enabled = on;

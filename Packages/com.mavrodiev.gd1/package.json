@@ -1,9 +1,9 @@
 {
   "name": "com.mavrodiev.gd1",
-  "version": "26.5.0",
+  "version": "26.5.1",
   "displayName": "GD1",
   "description": "Game Development 1 (NABA, AY26-27): the lessons and the full scenes, as samples.",
-  "unity": "6000.5",
+  "unity": "6000.3",
   "author": {
     "name": "Petar A. Mavrodiev"
   },
@@ -13,7 +13,7 @@
     "unity"
   ],
   "dependencies": {
-    "com.mavrodiev.playground": "1.1.0",
+    "com.mavrodiev.playground": "1.1.1",
     "com.mavrodiev.toolbox": "1.1.0",
     "com.mavrodiev.asset-library": "1.1.0",
     "com.unity.probuilder": "6.1.3",

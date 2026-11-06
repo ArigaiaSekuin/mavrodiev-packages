@@ -1,9 +1,9 @@
 {
   "name": "com.mavrodiev.playground",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "displayName": "Playground",
   "description": "Playgrounds for learning Unity, topic by topic, each with its exercises.",
-  "unity": "6000.5",
+  "unity": "6000.3",
   "author": {
     "name": "Petar A. Mavrodiev"
   },
