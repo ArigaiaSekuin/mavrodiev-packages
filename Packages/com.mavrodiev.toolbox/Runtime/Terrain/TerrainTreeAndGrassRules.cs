@@ -39,10 +39,10 @@ namespace Mavrodiev.Toolbox
 
             [Header("Where")]
             [Tooltip(HeightTip)]
-            [FromTo] public Vector2 heightRangeMetres = new Vector2(0f, 1000f);
+            [FromTo("m")] public Vector2 heightRangeMetres = new Vector2(0f, 1000f);
 
             [Tooltip(SlopeTip)]
-            [FromTo] public Vector2 slopeRangeDegrees = new Vector2(0f, 90f);
+            [FromTo("°")] public Vector2 slopeRangeDegrees = new Vector2(0f, 90f);
 
             [Tooltip(LayerTip)]
             public TerrainLayer onlyOnLayer;
@@ -56,7 +56,7 @@ namespace Mavrodiev.Toolbox
 
             [Header("Look")]
             [Tooltip("Each copy gets a random size between these two numbers. 1 is the prefab's own size.")]
-            [FromTo] public Vector2 scaleRange = new Vector2(0.8f, 1.2f);
+            [FromTo("×")] public Vector2 scaleRange = new Vector2(0.8f, 1.2f);
 
             [Tooltip("Pushes each copy this many metres into the ground. Good for rocks. Try 0 to 0.3.")]
             [Min(0f)] public float sinkMetres = 0f;
@@ -83,10 +83,10 @@ namespace Mavrodiev.Toolbox
 
             [Header("Where")]
             [Tooltip(HeightTip)]
-            [FromTo] public Vector2 heightRangeMetres = new Vector2(0f, 1000f);
+            [FromTo("m")] public Vector2 heightRangeMetres = new Vector2(0f, 1000f);
 
             [Tooltip(SlopeTip)]
-            [FromTo] public Vector2 slopeRangeDegrees = new Vector2(0f, 90f);
+            [FromTo("°")] public Vector2 slopeRangeDegrees = new Vector2(0f, 90f);
 
             [Tooltip(LayerTip)]
             public TerrainLayer onlyOnLayer;
@@ -97,7 +97,7 @@ namespace Mavrodiev.Toolbox
 
             [Header("Look")]
             [Tooltip("Each patch gets a random size between these two numbers. For a Texture, in metres. For a prefab, 1 is the model's own size.")]
-            [FromTo] public Vector2 scaleRange = new Vector2(0.8f, 1.2f);
+            [FromTo("×")] public Vector2 scaleRange = new Vector2(0.8f, 1.2f);
 
             [Tooltip(SeedTip)]
             public int seed = 1;

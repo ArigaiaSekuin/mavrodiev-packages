@@ -54,3 +54,10 @@ My own, for the record: every other shader in `Shaders/` (Common, Surfaces, Ligh
 | `Shaders/Terrain/Terrain-Mono.shader`, `Terrain-Height-Bands.shader` | Petar Mavrodiev (from his Dancerex shaders HeightBandTerrain and HeightBasedTerrain, rewritten on the Library passes with an AI assistant, 11-03) | DancerexDTx | my own |
 | `Runtime/Terrain/TerrainLayerRules.cs`, `TerrainTreeAndGrassRules.cs`, `FromToAttribute.cs`, `Editor/Terrain-Rules/` (written from Unity's terrain API with an AI assistant, 11-06; the behaviour studied from the documentation of Staggart Creations' Procedural Terrain Painter and Vegetation Spawner, no code or assets taken) | Petar Mavrodiev | Workshop | my own |
 | Showcase `Samples~/Terrain-Showcase/`: textures, terrain layers, materials, meshes and prefabs (all made by script, 11-06) | Petar Mavrodiev | Workshop | my own |
+
+## Foliage wind (11-10)
+
+| Item | Author | Source | Licence |
+|---|---|---|---|
+| `Shaders/Nature/FoliageWind.shader` | Unity Technologies (URP's `Lit.shader`, URP 17.3 / Unity 6.3), with the wind added by Petar Mavrodiev (AI-assisted) | the Universal Render Pipeline package | Unity Companion License, as URP itself; the changes are my own |
+| `Shaders/Nature/FoliageWind.hlsl` | Petar Mavrodiev (AI-assisted) | written for this package | my own |

@@ -1,5 +1,8 @@
 # Changelog
 
+## 26.7.0 — 2026-11-10
+For L07, scenes that move: Sundown and Sunrise in the Sunset sample (Timeline, the sky and the environment animated by two controllers, a cowboy, a taxi, music), and a cutscene for the Gas Station (Timeline, Cinemachine, music and voice lines). Toolbox 1.3.0 (plants that sway in the wind) and Asset Library 1.3.0 (more terrain, a natural sky, nature sounds). Now installs Cinemachine and Timeline. Credits in Third Party Notices.
+
 ## 26.6.0 — 2026-11-10
 For L06: Playground 1.2.0 (terrain), Toolbox 1.2.0, Asset Library 1.2.0. Gas Station: corrections to the tutorial, its definitions and the scene. Two new full scenes as samples, Arches and Sunset (early versions, to be updated).
 

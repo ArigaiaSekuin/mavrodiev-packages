@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0 — 2026-11-10
+More terrain: four terrain layers (meadow grass, sand, cliff rock, mud; eight in all), four heightmaps from Motion Forge (rolling hills, a ridge, rocky land with rivers, a canyon with a river), and three stamp brushes (hill, rocky peaks, mesa). Two nature loops (forest birds and wind, a calm stream) and a natural sky HDRI. The plants now sway in the wind (the Foliage Wind shader of Toolbox 1.3.0). All CC0 or my own; credits in Third Party Notices.
+
 ## 1.2.0 — 2026-11-10
 For outdoor scenes: plants (oak, pine, bush, grass, dandelion; CC BY 4.0, the credit is in Third Party Notices), three scanned mossy rocks, four terrain layers with their textures, three heightmaps, and three stamp brushes.
 

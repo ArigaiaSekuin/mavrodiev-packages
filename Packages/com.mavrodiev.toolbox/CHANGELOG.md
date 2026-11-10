@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0 — 2026-11-10
+Foliage wind: a new shader, Mavrodiev/Foliage Wind (URP Lit with a sway in its vertex passes; roots still, tips moving), used by the asset library's plants. The terrain rule tools' Inspectors made clearer: each row folds under its number and name, short labels (Height, Slope, Spacing, Per m²…), and ranges read "from [ ] to [ ] m" or "°".
+
 ## 1.2.0 — 2026-11-10
 Terrain by rules: Terrain Layer Rules paints layers by height and slope; Terrain Tree And Grass Rules places trees, rocks and grass by height, slope and layer. Both write ordinary terrain data. New sample: Terrain Showcase.
 

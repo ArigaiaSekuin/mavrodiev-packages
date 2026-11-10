@@ -1,6 +1,6 @@
 {
   "name": "com.mavrodiev.gd1",
-  "version": "26.6.0",
+  "version": "26.7.0",
   "displayName": "GD1",
   "description": "Game Development 1 (NABA, AY26-27): the lessons and the full scenes, as samples.",
   "unity": "6000.3",
@@ -14,16 +14,18 @@
   ],
   "dependencies": {
     "com.mavrodiev.playground": "1.2.0",
-    "com.mavrodiev.toolbox": "1.2.0",
-    "com.mavrodiev.asset-library": "1.2.0",
+    "com.mavrodiev.toolbox": "1.3.0",
+    "com.mavrodiev.asset-library": "1.3.0",
     "com.unity.probuilder": "6.1.3",
     "com.unity.learn.iet-framework": "6.0.7",
-    "com.cqf.urpvolumetricfog": "0.5.91"
+    "com.cqf.urpvolumetricfog": "0.5.91",
+    "com.unity.cinemachine": "3.1.7",
+    "com.unity.timeline": "1.8.12"
   },
   "samples": [
     {
       "displayName": "Gas Station",
-      "description": "",
+      "description": "The full scene with its in-editor tutorial, and a cutscene (Timeline and Cinemachine).",
       "path": "Samples~/Gas-Station"
     },
     {
@@ -33,7 +35,7 @@
     },
     {
       "displayName": "Sunset",
-      "description": "A full scene (an early version, to be updated).",
+      "description": "Three scenes: Sunset (static), and Sundown and Sunrise (animated with Timeline). Early versions, to be updated.",
       "path": "Samples~/Sunset"
     }
   ]

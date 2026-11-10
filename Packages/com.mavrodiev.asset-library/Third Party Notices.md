@@ -106,3 +106,23 @@ These need credit: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . Kee
 |---|---|---|---|
 | `Textures/ambientCG/Terrain001/`, `Terrain002/`, `Terrain003/` (from the 2K EXR: averaged to 1K, levels stretched to the full range, saved as 16-bit PNG) | ambientCG | https://ambientcg.com/view?id=Terrain001 · https://ambientcg.com/view?id=Terrain002 · https://ambientcg.com/view?id=Terrain003 | CC0 1.0 |
 | `TerrainBrushes/T_Terrainstamp_Ridge`, `_Mountain`, `_Crater` (from those three, faded to black at the edges) and their `.brush` assets | Petar Mavrodiev (made by script in the Workshop) | derived from the ambientCG sets above | CC0 sources; the derived files are my own |
+
+## More terrain: layers, heightmaps, stamp brushes (11-10)
+
+The Poly Haven sets were downloaded at 1K (colour, OpenGL normal, ARM, displacement); the `_mask_1k.png` of each was packed by script from its own maps (R metallic, G ambient occlusion, B height, A smoothness = 1 − roughness). The Motion Forge heightmaps were resized to 1025 × 1025, levels stretched to the full range, saved as 16-bit PNG; Rocky Land and Rivers from its EXR, as its PNG is 8-bit. The author's readme: "free and under a creative commons no attribution license required - CC0… it cannot be sold as a standalone product". The source archives are kept in `D:\Projects Unity\Mavrodiev\_Downloads\2026-11-10-Terrain-Heightmaps\`.
+
+| Item | Author | Source | Licence |
+|---|---|---|---|
+| `Textures/PolyHaven/leafy_grass/` | Charlotte Baglioni, Poly Haven | https://polyhaven.com/a/leafy_grass | CC0 1.0 |
+| `Textures/PolyHaven/coast_sand_01/` | Rob Tuytel, Poly Haven | https://polyhaven.com/a/coast_sand_01 | CC0 1.0 |
+| `Textures/PolyHaven/rock_face_03/` | Dario Barresi and Rico Cilliers, Poly Haven | https://polyhaven.com/a/rock_face_03 | CC0 1.0 |
+| `Textures/PolyHaven/brown_mud_leaves_01/` | Rob Tuytel, Poly Haven | https://polyhaven.com/a/brown_mud_leaves_01 | CC0 1.0 |
+| `TerrainLayers/TL_Meadow-Grass`, `TL_Sand`, `TL_Cliff-Rock`, `TL_Mud` | Petar Mavrodiev | Workshop; they use the four Poly Haven sets above | my own |
+| `Textures/MotionForge/Rolling-Hills/`, `Ridge-Through-Terrain/`, `Rocky-Land-And-Rivers/`, `Canyon-And-River/` | Chris J. Mitchell, Motion Forge Pictures | https://www.motionforgepictures.com/height-maps | CC0 1.0 (not to be sold on its own) |
+| `TerrainBrushes/T_Terrainstamp_Hill` (from Rolling Hills), `_Rocky-Peaks` (from Rocky Land and Rivers), each a crop faded to black at the edges, and their `.brush` assets | Petar Mavrodiev (made by script) | derived from the Motion Forge heightmaps above | CC0 sources; the derived files are my own |
+| `TerrainBrushes/T_Terrainstamp_Mesa` and its `.brush` asset | Petar Mavrodiev (made by script) | procedural: a flat top with steep, noisy sides | my own |
+| `Sounds/Soundscape/Bed/Bed-Forest-Birds-Wind.ogg` ("Ambiance_Natural_Forest_Birds_Wind_Loop_Stereo"; from Freesound's high-quality MP3 preview, converted to OGG) | Nox_Sound | https://freesound.org/people/Nox_Sound/sounds/570492/ | CC0 1.0 |
+| `Sounds/Soundscape/Bed/Bed-Stream.ogg` ("Ambiance_Stream_Calm_Loop_Stereo"; the same) | Nox_Sound | https://freesound.org/people/Nox_Sound/sounds/548373/ | CC0 1.0 |
+| `HDRIs/kloofendal_48d_partly_cloudy_puresky_2k.hdr` (Kloofendal 48d Partly Cloudy, Pure Sky), downloaded at 2K as `.hdr`, imported as a cubemap | Greg Zaal (original), Jarod Guest (sky edits), Poly Haven | https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky | CC0 1.0 |
+
+The plants' materials (`Plants/*/M_*`, except the billboards) now use the toolbox's `Mavrodiev/Foliage Wind` shader, so they sway; their settings are unchanged.

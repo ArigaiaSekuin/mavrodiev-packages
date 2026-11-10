@@ -27,13 +27,13 @@ namespace Mavrodiev.Toolbox
 
             [Header("Where")]
             [Tooltip("Paint only between these heights, in metres above the bottom of the terrain. World height is not used. The grey line at the top shows how high your ground goes. A big 'to' means all the way up.")]
-            [FromTo] public Vector2 heightRangeMetres = new Vector2(0f, 1000f);
+            [FromTo("m")] public Vector2 heightRangeMetres = new Vector2(0f, 1000f);
 
             [Tooltip("Past the range, the layer fades away over this many metres. 0 is a hard line. Try 1 to 3.")]
             [Min(0f)] public float heightFadeMetres = 1f;
 
             [Tooltip("Paint only where the ground is this steep, in degrees. 0 flat, 10 a gentle hill, 30 like stairs, 45 too steep for a default character to walk up, 90 a wall.")]
-            [FromTo] public Vector2 slopeRangeDegrees = new Vector2(0f, 90f);
+            [FromTo("°")] public Vector2 slopeRangeDegrees = new Vector2(0f, 90f);
 
             [Tooltip("Past the range, the layer fades away over this many degrees. 0 is a hard line. Try 3 to 8.")]
             [Min(0f)] public float slopeFadeDegrees = 5f;
