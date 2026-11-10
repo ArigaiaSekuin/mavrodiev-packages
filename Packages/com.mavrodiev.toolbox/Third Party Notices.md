@@ -52,3 +52,5 @@ My own, for the record: every other shader in `Shaders/` (Common, Surfaces, Ligh
 |---|---|---|---|
 | `Runtime/Terrain/HillTerrainGenerator.cs`, `HillTerrainProfile.cs`, `TerrainSandbox.cs` | Petar Mavrodiev (from his MD4 AY25-26 project, namespace changed) | MD4_26_Mavrodiev | my own |
 | `Shaders/Terrain/Terrain-Mono.shader`, `Terrain-Height-Bands.shader` | Petar Mavrodiev (from his Dancerex shaders HeightBandTerrain and HeightBasedTerrain, rewritten on the Library passes with an AI assistant, 11-03) | DancerexDTx | my own |
+| `Runtime/Terrain/TerrainLayerRules.cs`, `TerrainTreeAndGrassRules.cs`, `FromToAttribute.cs`, `Editor/Terrain-Rules/` (written from Unity's terrain API with an AI assistant, 11-06; the behaviour studied from the documentation of Staggart Creations' Procedural Terrain Painter and Vegetation Spawner, no code or assets taken) | Petar Mavrodiev | Workshop | my own |
+| Showcase `Samples~/Terrain-Showcase/`: textures, terrain layers, materials, meshes and prefabs (all made by script, 11-06) | Petar Mavrodiev | Workshop | my own |

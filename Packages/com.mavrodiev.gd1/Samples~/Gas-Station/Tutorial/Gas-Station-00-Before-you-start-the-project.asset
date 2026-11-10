@@ -1,338 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6676952377663898430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 2_01  Screen Space Ambient Occlusion
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 2
-  Title:
-    m_Untranslated: "0.1 \xB7 Screen Space Ambient Occlusion"
-  m_LegacyParagraphs:
-    m_Items: []
-  m_PageParagraphs:
-  - {fileID: -5083024145801744478}
-  m_CameraSettings:
-    m_CameraMode: 0
-    m_FocusMode: 0
-    m_Orthographic: 0
-    m_Size: 0
-    m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
-    m_FrameObject:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_Enabled: 0
-  NextButton:
-    m_Untranslated: Next
-  DoneButton:
-    m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
-  m_FaqEntries: []
-  m_AutoAdvance: 0
-  Showing:
-    m_PersistentCalls:
-      m_Calls: []
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
-  Staying:
-    m_PersistentCalls:
-      m_Calls: []
-  CriteriaValidated:
-    m_PersistentCalls:
-      m_Calls: []
-  MaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  NonMaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforePageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnAfterPageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTutorialPageStay:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_NextButton: Next
-  m_DoneButton: Done
---- !u!114 &-6634528146557076516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 3_02  Decal
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 3
-  Title:
-    m_Untranslated: "0.2 \xB7 Decal"
-  m_LegacyParagraphs:
-    m_Items: []
-  m_PageParagraphs:
-  - {fileID: 5246658083956000589}
-  m_CameraSettings:
-    m_CameraMode: 0
-    m_FocusMode: 0
-    m_Orthographic: 0
-    m_Size: 0
-    m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
-    m_FrameObject:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_Enabled: 0
-  NextButton:
-    m_Untranslated: Next
-  DoneButton:
-    m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
-  m_FaqEntries: []
-  m_AutoAdvance: 0
-  Showing:
-    m_PersistentCalls:
-      m_Calls: []
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
-  Staying:
-    m_PersistentCalls:
-      m_Calls: []
-  CriteriaValidated:
-    m_PersistentCalls:
-      m_Calls: []
-  MaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  NonMaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforePageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnAfterPageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTutorialPageStay:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_NextButton: Next
-  m_DoneButton: Done
---- !u!114 &-6607269028933424571
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: '<b>The URP Asset</b> (<i>Settings/PC_RPAsset</i>): <b>HDR</b> on (bright values above 1 are kept, so bloom can find them), <b>Depth Texture</b> and <b>Opaque Texture</b> on (the fog and the reflections read them), <b>Additional Lights: Per Pixel</b> with <b>Cast Shadows</b> on.'
---- !u!114 &-5083024145801744478
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: "<b>Screen Space Ambient Occlusion</b> \u2014 the soft dark where objects meet."
---- !u!114 &-2965439921397664272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 5_04  Volumetric Fog
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 5
-  Title:
-    m_Untranslated: "0.4 \xB7 Volumetric Fog"
-  m_LegacyParagraphs:
-    m_Items: []
-  m_PageParagraphs:
-  - {fileID: 7210598152130406919}
-  m_CameraSettings:
-    m_CameraMode: 0
-    m_FocusMode: 0
-    m_Orthographic: 0
-    m_Size: 0
-    m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
-    m_FrameObject:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_Enabled: 0
-  NextButton:
-    m_Untranslated: Next
-  DoneButton:
-    m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
-  m_FaqEntries: []
-  m_AutoAdvance: 0
-  Showing:
-    m_PersistentCalls:
-      m_Calls: []
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
-  Staying:
-    m_PersistentCalls:
-      m_Calls: []
-  CriteriaValidated:
-    m_PersistentCalls:
-      m_Calls: []
-  MaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  NonMaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforePageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnAfterPageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTutorialPageStay:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_NextButton: Next
-  m_DoneButton: Done
---- !u!114 &-2688865612856493887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 6_The rendering path
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 6
-  Title:
-    m_Untranslated: The rendering path
-  m_LegacyParagraphs:
-    m_Items: []
-  m_PageParagraphs:
-  - {fileID: 3541427509161247404}
-  m_CameraSettings:
-    m_CameraMode: 0
-    m_FocusMode: 0
-    m_Orthographic: 0
-    m_Size: 0
-    m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
-    m_FrameObject:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_Enabled: 0
-  NextButton:
-    m_Untranslated: Next
-  DoneButton:
-    m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
-  m_FaqEntries: []
-  m_AutoAdvance: 0
-  Showing:
-    m_PersistentCalls:
-      m_Calls: []
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
-  Staying:
-    m_PersistentCalls:
-      m_Calls: []
-  CriteriaValidated:
-    m_PersistentCalls:
-      m_Calls: []
-  MaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  NonMaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforePageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnAfterPageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTutorialPageStay:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_NextButton: Next
-  m_DoneButton: Done
---- !u!114 &-1736828971856327478
+--- !u!114 &-9027516654356414933
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -350,7 +18,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: 8401154736502007070}
+  - {fileID: 5904280396482831667}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -406,7 +74,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &-1247961927530208016
+--- !u!114 &-8312958988745601118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -424,7 +92,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: 6228110758837619458}
+  - {fileID: 75745900736980321}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -480,6 +148,374 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &-7501219792843225223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 6_The rendering path
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 6
+  Title:
+    m_Untranslated: The rendering path
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: 4555472659365738234}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-6552868355764762152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: '<b>The Renderer</b> (<i>Settings/PC_Renderer</i>), <i>Add Renderer Feature</i>:'
+--- !u!114 &-5885087638577103328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 3_02  Decal
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 3
+  Title:
+    m_Untranslated: "0.2 \xB7 Decal"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -4824562816123406980}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-4824562816123406980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>Decal</b> \u2014 used by other scenes; it does no harm here."
+--- !u!114 &-4027337383397599652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>The Player settings.</b> In <i>Edit \u203A Project Settings \u203A Player \u203A Other Settings</i>, add <i>URP_SCREEN_SPACE_REFLECTION</i> to <b>Scripting Define Symbols</b> and press <b>Apply</b>. Without this symbol the Screen Space Reflection feature does nothing."
+--- !u!114 &-3408459510396611276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 5_04  Volumetric Fog
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 5
+  Title:
+    m_Untranslated: "0.4 \xB7 Volumetric Fog"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: 7453665389226089351}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-2927784050075730058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 8_The Player settings
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 8
+  Title:
+    m_Untranslated: The Player settings
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -4027337383397599652}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-2220674625789337189
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>Screen Space Ambient Occlusion</b> \u2014 the soft dark where objects meet."
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,14 +534,15 @@ MonoBehaviour:
   m_LessonId: f92c4e3048864be9ac568b7d917d0132
   m_Pages:
     m_Items:
-    - {fileID: -1736828971856327478}
-    - {fileID: 9182823937455727188}
-    - {fileID: -6676952377663898430}
-    - {fileID: -6634528146557076516}
-    - {fileID: -1247961927530208016}
-    - {fileID: -2965439921397664272}
-    - {fileID: -2688865612856493887}
-    - {fileID: 9107279344060113563}
+    - {fileID: -9027516654356414933}
+    - {fileID: 4471631951685863278}
+    - {fileID: 4807465503772615191}
+    - {fileID: -5885087638577103328}
+    - {fileID: -8312958988745601118}
+    - {fileID: -3408459510396611276}
+    - {fileID: -7501219792843225223}
+    - {fileID: 3902839205472002141}
+    - {fileID: -2927784050075730058}
   m_SceneManagementBehavior: 1
   m_ReturnToPreviousScenes: 1
   m_Scenes: []
@@ -546,43 +583,7 @@ MonoBehaviour:
   m_Scene: {fileID: 0}
   m_TutorialTitle: 
   m_FaqEntries: []
---- !u!114 &3541427509161247404
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: <b>The rendering path.</b> In the Renderer, the <i>Rendering Path</i> is <b>Forward+</b>. In Forward, each object is lit by a limited number of additional lights (<i>Per Object Limit</i>, at most 8). Forward+ has no limit per object, and this scene uses 26 lights.
---- !u!114 &5246658083956000589
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: "<b>Decal</b> \u2014 used by other scenes; it does no harm here."
---- !u!114 &6228110758837619458
+--- !u!114 &75745900736980321
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -600,61 +601,7 @@ MonoBehaviour:
     MaskPreset: {fileID: 0}
   Text:
     m_Untranslated: "<b>Screen Space Reflection</b> \u2014 sharp reflections of what is on screen."
---- !u!114 &6370470231575948684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: '<b>The Renderer</b> (<i>Settings/PC_Renderer</i>), <i>Add Renderer Feature</i>:'
---- !u!114 &7210598152130406919
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: "<b>Volumetric Fog</b> \u2014 from the <i>URP Volumetric Fog</i> package by Cristian Qiu (included in the project). It makes fog that is lit by real lights and cut by their shadows."
---- !u!114 &8401154736502007070
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: The scene needs four renderer features and a few settings in the URP Asset. They are project settings, so they are set once for the whole project.
---- !u!114 &9107279344060113563
+--- !u!114 &3902839205472002141
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,7 +619,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -6607269028933424571}
+  - {fileID: 4648938236697821805}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -728,7 +675,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &9182823937455727188
+--- !u!114 &4471631951685863278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -746,7 +693,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: 6370470231575948684}
+  - {fileID: -6552868355764762152}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -802,3 +749,149 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &4555472659365738234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: <b>The rendering path.</b> In the Renderer, the <i>Rendering Path</i> is <b>Forward+</b>. In Forward, each object is lit by a limited number of additional lights (<i>Per Object Limit</i>, at most 8). Forward+ has no limit per object, and this scene uses 26 lights.
+--- !u!114 &4648938236697821805
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>The URP Asset</b> (<i>Settings/PC_RPAsset</i>): <b>HDR</b> on (bright values above 1 are kept, so bloom can find them), <b>Depth Texture</b> and <b>Opaque Texture</b> on (the fog and the reflections read them), <b>Additional Lights: Per Pixel</b> with <b>Cast Shadows</b> on. <b>Use Rendering Layers</b> on, in the Lighting section (the fog-only lights in \xA7 10 need it)."
+--- !u!114 &4807465503772615191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 2_01  Screen Space Ambient Occlusion
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 2
+  Title:
+    m_Untranslated: "0.1 \xB7 Screen Space Ambient Occlusion"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -2220674625789337189}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &5904280396482831667
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: The scene needs four renderer features and a few settings in the URP Asset. They are project settings, so they are set once for the whole project.
+--- !u!114 &7453665389226089351
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>Volumetric Fog</b> \u2014 from the <i>URP Volumetric Fog</i> package by Cristian Qiu (included in the project). It makes fog that is lit by real lights and cut by their shadows."

@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.0 — 2026-11-10
+Terrain: two new samples, 14 Soft Surfaces and 15 Terrain (by hand and by rules). Installs Unity's Terrain Tools. Uses open-licence plants, rocks, layers and heightmaps from Asset Library 1.2.0, and the rule tools from Toolbox 1.2.0. Fix: the presentation script (the lights linked to their emissive lamps) now compiles; before, it was skipped and its component was missing in the scenes.
+
 ## 1.1.1 — 2026-11-06
 Works on Unity 6.3: a fix to one tutorial script, and the minimum version lowered to 6000.3.
 

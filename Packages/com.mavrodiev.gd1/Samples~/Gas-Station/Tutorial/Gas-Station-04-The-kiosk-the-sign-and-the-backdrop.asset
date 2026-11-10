@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8753271410613755153
+--- !u!114 &-9208230107977644461
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17,8 +17,8 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: "<b>The kiosk</b> stands at (9.2, 0, 4.32), turned <b>65\xB0</b>, so its front faces the station. A box 6.4 \xD7 4.6 \xD7 3 m, a roof slab 7.0 \xD7 0.28 \xD7 5.6 m that overhangs the front, a front step 6.8 \xD7 0.14 \xD7 1.4 m."
---- !u!114 &-8396095929510114850
+    m_Untranslated: "<b>The kiosk</b> stands at (9.2, 0, 4.32), turned <b>65\xB0</b>, so its front faces the station. Its walls are separate boxes around a footprint of 6.4 \xD7 4.6 m, 3 m high and 0.25 m thick, with a roof slab 7.0 \xD7 0.28 \xD7 5.6 m that overhangs the front, a front step 6.8 \xD7 0.14 \xD7 1.4 m."
+--- !u!114 &-9167060171195569760
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35,100 +35,8 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: '<b>Save the scene.</b> This is the first checkpoint: the geometry, in grey.'
---- !u!114 &-7883351782534072983
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: '<b>Its front</b>, from left to right: a solid door, a window with one centre mullion (from 0.9 to 2.3 m high), and a night-pay counter window with a small hatch and a steel tray. Cut the openings with ProBuilder (select the faces, <i>Extrude</i> inward or <i>Subdivide</i> and delete). Thin dark frames go around every opening.'
---- !u!114 &-6782704544706674628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 1_42  Its front
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 1
-  Title:
-    m_Untranslated: "4.2 \xB7 Its front"
-  m_LegacyParagraphs:
-    m_Items: []
-  m_PageParagraphs:
-  - {fileID: -7883351782534072983}
-  m_CameraSettings:
-    m_CameraMode: 0
-    m_FocusMode: 0
-    m_Orthographic: 0
-    m_Size: 0
-    m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
-    m_FrameObject:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_Enabled: 0
-  NextButton:
-    m_Untranslated: Next
-  DoneButton:
-    m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
-  m_FaqEntries: []
-  m_AutoAdvance: 0
-  Showing:
-    m_PersistentCalls:
-      m_Calls: []
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
-  Staying:
-    m_PersistentCalls:
-      m_Calls: []
-  CriteriaValidated:
-    m_PersistentCalls:
-      m_Calls: []
-  MaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  NonMaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforePageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnAfterPageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTutorialPageStay:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_NextButton: Next
-  m_DoneButton: Done
---- !u!114 &-6064062975525891248
+    m_Untranslated: "<b>The price sign</b> at (\u22128.8, 0, \u22127.3), turned \u221267\xB0: a pole (radius 0.12 m, 5 m tall), a cabinet 1.9 \xD7 2.6 \xD7 0.3 m at 6.1 m height, and a flat face in front of it for the prices."
+--- !u!114 &-5245761250241247652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,7 +54,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: 3005641502599808589}
+  - {fileID: -9167060171195569760}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -202,7 +110,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &-4046644139101876348
+--- !u!114 &-4456728490914828758
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,8 +127,26 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: '<b>The interior</b> is only seen through the glass: a counter, a shelf of goods, a fridge with a glowing front, a ceiling panel. Simple boxes are enough.'
---- !u!114 &-1699109311749339121
+    m_Untranslated: "<b>The backdrop.</b> Wooden poles every 22 m along a line 26 m behind the station, 10 m tall, with three wires between them. The wires are <b>Line Renderers</b> (width 3.5 cm), each with a few points that sag in the middle. Two street lamps on 8 m posts stand at x = \u221230 and x = 24. In the fog, only their glow will be seen."
+--- !u!114 &-4340214885932672137
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: '<b>Save the scene.</b> This is the first checkpoint: the geometry, in grey.'
+--- !u!114 &-2539821139461342015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,16 +156,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 4_45  The backdrop
+  m_Name: 2_43  The interior
   m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 4
+  <IndexInTutorial>k__BackingField: 2
   Title:
-    m_Untranslated: "4.5 \xB7 The backdrop"
+    m_Untranslated: "4.3 \xB7 The interior"
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: 8465271810292333107}
-  - {fileID: -8396095929510114850}
+  - {fileID: 7028268398130552690}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -313,11 +238,11 @@ MonoBehaviour:
   m_LessonId: 77c5cf791c2a4959aabaf70eaf3296d9
   m_Pages:
     m_Items:
-    - {fileID: 7639416449301532487}
-    - {fileID: -6782704544706674628}
-    - {fileID: 3176549490923904915}
-    - {fileID: -6064062975525891248}
-    - {fileID: -1699109311749339121}
+    - {fileID: 4287548701709945854}
+    - {fileID: 3129346914171126650}
+    - {fileID: -2539821139461342015}
+    - {fileID: -5245761250241247652}
+    - {fileID: 7513608991406150192}
   m_SceneManagementBehavior: 1
   m_ReturnToPreviousScenes: 1
   m_Scenes: []
@@ -358,25 +283,7 @@ MonoBehaviour:
   m_Scene: {fileID: 0}
   m_TutorialTitle: 
   m_FaqEntries: []
---- !u!114 &3005641502599808589
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: "<b>The price sign</b> at (\u22128.8, 0, \u22127.3): a pole (radius 0.12 m, 5 m tall), a cabinet 1.9 \xD7 2.6 \xD7 0.3 m at 6.1 m height, and a flat face in front of it for the prices."
---- !u!114 &3176549490923904915
+--- !u!114 &3129346914171126650
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,15 +293,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 2_43  The interior
+  m_Name: 1_42  Its front
   m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 2
+  <IndexInTutorial>k__BackingField: 1
   Title:
-    m_Untranslated: "4.3 \xB7 The interior"
+    m_Untranslated: "4.2 \xB7 Its front"
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -4046644139101876348}
+  - {fileID: 8863397327950560520}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -450,7 +357,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &7639416449301532487
+--- !u!114 &4287548701709945854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,7 +375,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -8753271410613755153}
+  - {fileID: -9208230107977644461}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -524,7 +431,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &8465271810292333107
+--- !u!114 &7028268398130552690
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -541,4 +448,97 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: "<b>The backdrop.</b> Wooden poles every 22 m along a line 26 m behind the station, 10 m tall, with three wires between them. The wires are <b>Line Renderers</b> (width 3.5 cm), each with a few points that sag in the middle. Two street lamps on 8 m posts stand at x = \u221230 and x = 24. In the fog, only their glow will be seen."
+    m_Untranslated: '<b>The interior</b> is only seen through the glass: a counter, a shelf of goods, a fridge with a glowing front, a ceiling panel. Simple boxes are enough.'
+--- !u!114 &7513608991406150192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 4_45  The backdrop
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 4
+  Title:
+    m_Untranslated: "4.5 \xB7 The backdrop"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -4456728490914828758}
+  - {fileID: -4340214885932672137}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &8863397327950560520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: '<b>Its front</b>, from left to right: a solid door, a window with one centre mullion (from 0.9 to 2.3 m high), and a night-pay counter window with a small hatch and a steel tray. The front is built from separate boxes, with gaps left for the openings: piers between them, a lintel band above and sills below. The size and position of each piece are in the finished scene, under <i>Kiosk</i>. Thin dark frames go around every opening.'

@@ -32,3 +32,11 @@ My own pieces in the kit: `Presentation/Prefabs/Human-Silhouette-1.8m.prefab` wi
 | Item | Author | Source | Licence |
 |---|---|---|---|
 | `Camera/References/22-Road-Streetlights-In-Blue-Fog.jpg`, `Camera/References/29-Sign-Red-Neon-On-A-Pole.jpg` (copied from the Atmosphere-Gallery's references) | [?] | [?] not recorded | [?] clear before a public release |
+
+## 14 · Soft Surfaces and 15 · Terrain (11-06)
+
+These samples hold only their own scenes, terrain data, materials and sample-local copies of Terrain Layers; the plants, rocks, textures and heightmaps they use are in the Asset Library, credited in its notices (the plants are CC BY 4.0, by LOLIPOP).
+
+| Item | Author | Source | Licence |
+|---|---|---|---|
+| `14-Soft-Surfaces/Soft-Surfaces/T_Heightmap-Mountain.png`, `15-Terrain/Terrain-Manual/T_Brush-Mountain.png` (grey copies made by script) | ambientCG (Terrain 002) | https://ambientcg.com/view?id=Terrain002 | CC0 1.0 |

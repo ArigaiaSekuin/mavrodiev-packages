@@ -1,6 +1,6 @@
 {
   "name": "com.mavrodiev.playground",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "displayName": "Playground",
   "description": "Playgrounds for learning Unity, topic by topic, each with its exercises.",
   "unity": "6000.3",
@@ -13,12 +13,13 @@
     "unity"
   ],
   "dependencies": {
-    "com.mavrodiev.toolbox": "1.1.0",
-    "com.mavrodiev.asset-library": "1.1.0",
+    "com.mavrodiev.toolbox": "1.2.0",
+    "com.mavrodiev.asset-library": "1.2.0",
     "com.unity.learn.iet-framework": "6.0.7",
     "com.unity.probuilder": "6.1.3",
     "com.unity.splines": "2.9.1",
-    "com.cqf.urpvolumetricfog": "0.5.91"
+    "com.cqf.urpvolumetricfog": "0.5.91",
+    "com.unity.terrain-tools": "5.3.3"
   },
   "samples": [
     {
@@ -90,6 +91,16 @@
       "displayName": "13 · URP",
       "description": "",
       "path": "Samples~/13-URP"
+    },
+    {
+      "displayName": "14 · Soft Surfaces",
+      "description": "",
+      "path": "Samples~/14-Soft-Surfaces"
+    },
+    {
+      "displayName": "15 · Terrain",
+      "description": "",
+      "path": "Samples~/15-Terrain"
     },
     {
       "displayName": "Tutorial Test",

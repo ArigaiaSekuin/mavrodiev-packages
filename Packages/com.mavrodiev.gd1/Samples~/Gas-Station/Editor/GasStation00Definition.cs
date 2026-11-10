@@ -32,7 +32,9 @@ namespace Mavrodiev.Playground.GasStation
                 NewPage("The rendering path",
                     Text("<b>The rendering path.</b> In the Renderer, the <i>Rendering Path</i> is <b>Forward+</b>. In Forward, each object is lit by a limited number of additional lights (<i>Per Object Limit</i>, at most 8). Forward+ has no limit per object, and this scene uses 26 lights.")),
                 NewPage("The URP Asset",
-                    Text("<b>The URP Asset</b> (<i>Settings/PC_RPAsset</i>): <b>HDR</b> on (bright values above 1 are kept, so bloom can find them), <b>Depth Texture</b> and <b>Opaque Texture</b> on (the fog and the reflections read them), <b>Additional Lights: Per Pixel</b> with <b>Cast Shadows</b> on.")),
+                    Text("<b>The URP Asset</b> (<i>Settings/PC_RPAsset</i>): <b>HDR</b> on (bright values above 1 are kept, so bloom can find them), <b>Depth Texture</b> and <b>Opaque Texture</b> on (the fog and the reflections read them), <b>Additional Lights: Per Pixel</b> with <b>Cast Shadows</b> on. <b>Use Rendering Layers</b> on, in the Lighting section (the fog-only lights in § 10 need it).")),
+                NewPage("The Player settings",
+                    Text("<b>The Player settings.</b> In <i>Edit › Project Settings › Player › Other Settings</i>, add <i>URP_SCREEN_SPACE_REFLECTION</i> to <b>Scripting Define Symbols</b> and press <b>Apply</b>. Without this symbol the Screen Space Reflection feature does nothing.")),
             };
         }
     }

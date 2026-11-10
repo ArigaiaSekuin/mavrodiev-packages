@@ -20,13 +20,15 @@ The scene needs four renderer features and a few settings in the URP Asset. They
 
 **The rendering path.** In the Renderer, the *Rendering Path* is **Forward+**. In Forward, each object is lit by a limited number of additional lights (*Per Object Limit*, at most 8). Forward+ has no limit per object, and this scene uses 26 lights.
 
-**The URP Asset** (`Settings/PC_RPAsset`): **HDR** on (bright values above 1 are kept, so bloom can find them), **Depth Texture** and **Opaque Texture** on (the fog and the reflections read them), **Additional Lights: Per Pixel** with **Cast Shadows** on.
+**The URP Asset** (`Settings/PC_RPAsset`): **HDR** on (bright values above 1 are kept, so bloom can find them), **Depth Texture** and **Opaque Texture** on (the fog and the reflections read them), **Additional Lights: Per Pixel** with **Cast Shadows** on. **Use Rendering Layers** on, in the Lighting section (the fog-only lights in § 10 need it).
+
+**The Player settings.** In *Edit › Project Settings › Player › Other Settings*, add `URP_SCREEN_SPACE_REFLECTION` to **Scripting Define Symbols** and press **Apply**. Without this symbol the Screen Space Reflection feature does nothing.
 
 ## 1 · The ground and the layout
 
-All the geometry is made with ProBuilder (*Tools › ProBuilder › ProBuilder Window*). Sizes are in metres; one Unity unit is one metre.
+All the geometry is made with ProBuilder (*GameObject › ProBuilder › Cube*). Sizes are in metres; one Unity unit is one metre.
 
-1. **The forecourt.** A ProBuilder cube 60 × 0.1 × 60 m, its top at y = 0, named `Ground` under an empty parent `Forecourt`. Its UVs are set to world space in metres (*UV Editor › Auto › World Space*), so a texture's tiling is the same on every face and size.
+1. **The forecourt.** A ProBuilder cube 60 × 0.1 × 60 m, its top at y = 0, named `Ground` under an empty parent `Forecourt`. Its UVs are set to world space in metres (*Tools › ProBuilder › Editors › Open UV Editor*, all faces selected, *Special › World Space*), so a texture's tiling is the same on every face and size.
 2. **The far ground.** A large flat plane (400 m) just below the forecourt (y = −0.08), named `Far Ground`. It fills the horizon behind the fog.
 3. **The station's centre** is the world origin. The station (island, canopy, rain) is turned **−25°** around Y, so its left end comes toward the camera and the canopy reads in depth, not flat on.
 
@@ -50,10 +52,10 @@ All the geometry is made with ProBuilder (*Tools › ProBuilder › ProBuilder W
 
 ## 4 · The kiosk, the sign and the backdrop
 
-1. **The kiosk** stands at (9.2, 0, 4.32), turned **65°**, so its front faces the station. A box 6.4 × 4.6 × 3 m, a roof slab 7.0 × 0.28 × 5.6 m that overhangs the front, a front step 6.8 × 0.14 × 1.4 m.
-2. **Its front**, from left to right: a solid door, a window with one centre mullion (from 0.9 to 2.3 m high), and a night-pay counter window with a small hatch and a steel tray. Cut the openings with ProBuilder (select the faces, *Extrude* inward or *Subdivide* and delete). Thin dark frames go around every opening.
+1. **The kiosk** stands at (9.2, 0, 4.32), turned **65°**, so its front faces the station. Its walls are separate boxes around a footprint of 6.4 × 4.6 m, 3 m high and 0.25 m thick, with a roof slab 7.0 × 0.28 × 5.6 m that overhangs the front, a front step 6.8 × 0.14 × 1.4 m.
+2. **Its front**, from left to right: a solid door, a window with one centre mullion (from 0.9 to 2.3 m high), and a night-pay counter window with a small hatch and a steel tray. The front is built from separate boxes, with gaps left for the openings: piers between them, a lintel band above and sills below. The size and position of each piece are in the finished scene, under `Kiosk`. Thin dark frames go around every opening.
 3. **The interior** is only seen through the glass: a counter, a shelf of goods, a fridge with a glowing front, a ceiling panel. Simple boxes are enough.
-4. **The price sign** at (−8.8, 0, −7.3): a pole (radius 0.12 m, 5 m tall), a cabinet 1.9 × 2.6 × 0.3 m at 6.1 m height, and a flat face in front of it for the prices.
+4. **The price sign** at (−8.8, 0, −7.3), turned −67°: a pole (radius 0.12 m, 5 m tall), a cabinet 1.9 × 2.6 × 0.3 m at 6.1 m height, and a flat face in front of it for the prices.
 5. **The backdrop.** Wooden poles every 22 m along a line 26 m behind the station, 10 m tall, with three wires between them. The wires are **Line Renderers** (width 3.5 cm), each with a few points that sag in the middle. Two street lamps on 8 m posts stand at x = −30 and x = 24. In the fog, only their glow will be seen.
 
 **Save the scene.** This is the first checkpoint: the geometry, in grey.
@@ -108,7 +110,7 @@ Open the Lighting window: *Window › Rendering › Lighting › Environment*.
 
 1. **Skybox Material:** `GS-Procedural-Sky` (shader `Gas-Station/Procedural Night Sky`). It starts from three colours blended by height (top, middle, bottom) in a very dark teal, and adds what the shader computes itself: clouds drifting slowly, lit from below by a warm glow along the horizon (the town), stars that the clouds cover, and a moon with a soft glow. All its colours are typed as small linear numbers, because the sky must be about a hundred times darker than the lights. Try *Cover*, *Drift* and the moon's *Direction*; in the fog, the moon and the horizon glow read most. The simpler `GS-Gradient-Sky` (the three colours only) is in the same folder.
 2. **Environment Lighting:** *Source: Gradient*, with the same three colours as the sky (Sky, Equator, Ground). This is the light every surface receives from all around. At night it is low and coloured, never black.
-3. **Environment Reflections:** *Source: Custom*, no cubemap, so the shiny surfaces reflect nothing from the sky. The wet ground will only mirror the station and its haze.
+3. **Environment Reflections:** *Source: Custom*, no cubemap, *Intensity Multiplier* 0, so the shiny surfaces reflect nothing from the sky. The wet ground will only mirror the station and its haze.
 4. **Sun Source:** leave it empty for now; § 10 sets it.
 5. **Lighting Settings.** The scene's Lighting Settings asset has *Baked Global Illumination* and *Realtime Global Illumination* both off. Nothing is baked.
 
@@ -141,7 +143,7 @@ The fog comes from the Volumetric Fog renderer feature (§ 0). It is controlled 
 
 1. **The Volume.** *GameObject › Volume › Global Volume*, named `Gas-Station Volume (global)`, with the profile `Gas-Station-Volume`. Add the override **Volumetric Fog**: *Enabled* on; *Distance* 100; *Base Height* 0, *Maximum Height* 16 (the fog thins out with height); *Density* 1; *Attenuation Distance* 15 (how far one sees through it); *Anisotropy* 0; *Scattering* 1; *Main Light* and *Additional Lights* contributions on; *Max Steps* 128; *Blur Iterations* 2.
 2. **Render Pass Event: Before Rendering Transparents.** The fog is then drawn before the reflections take their picture of the frame, so the wet ground mirrors the haze too (§ 11).
-3. **Add each light to the fog.** A light shows in the fog only with a **Volumetric Additional Light** component on it. Its *Scattering* is how much of its light the fog catches:
+3. **Add each light to the fog.** A light shows in the fog only with a **Volumetric Additional Light** component on it. Its *Anisotropy* is 0.7 on every light, and its *Scattering* is how much of its light the fog catches:
 
 | Light | Scattering |
 |---|---|
@@ -153,7 +155,7 @@ The fog comes from the Volumetric Fog renderer feature (§ 0). It is controlled 
 | Area Light | 0.1 |
 | Tube Light | 0.06 |
 
-4. **The fog-only lights.** The Fog Spots carry most of the haze under the canopy, but they should not light the surfaces a second time. The fog feature ignores **Rendering Layers**, while surfaces respect them. So the Fog Spots are set to a Rendering Layer that no object uses (*Light › Rendering › Rendering Layers*, a spare layer, for example layer 15), and their shadows keep the default layers, so the canopy, the columns and the pumps still cut their light into shafts. Their short Range (8 m) ends the bright haze about where the canopy ends.
+4. **The fog-only lights.** The Fog Spots carry most of the haze under the canopy, but they should not light the surfaces a second time. The fog feature ignores **Rendering Layers**, while surfaces respect them. So the Fog Spots are set to a Rendering Layer that no object uses (*Light › Rendering › Rendering Layers*; name a spare one in *Edit › Project Settings › Tags and Layers › Rendering Layers*), and their shadows keep the default layers (*Custom Shadow Layers* on, *Layer: Everything*), so the canopy, the columns and the pumps still cut their light into shafts. Their short Range (8 m) ends the bright haze about where the canopy ends.
 5. **The distance fog.** Unity's own fog, in the Lighting window (*Environment › Other Settings › Fog*): on, *Mode: Exponential Squared*, *Density* 0.015, colour the sky's middle (very dark teal). It fades every surface with its distance from the camera, independently of the volumetric fog: the backdrop and the far ground fade first. Without the Volumetric Fog package, it is the only fog in the scene.
 6. **The fog's sky light.** The fog is lit only by lights, never by the sky. A **Directional Light** pointing straight down, named `Fog Ambient (fog only)`, on the same spare Rendering Layer, gives the whole fog a faint teal glow: Intensity 0.012, colour 88, 194, 255, no shadows. In the Lighting window, set it as the **Sun Source**. The fog uses the main light for its general glow.
 
@@ -166,28 +168,28 @@ A smooth surface shows what is around it. Here three things are reflected: the s
 1. **Screen Space Reflections (SSR)** for every surface except the ground. In the Volume, add **Screen Space Reflection**: *Mode* switched on (not *Disabled*), *Minimum Smoothness* 0.25 (rougher surfaces reflect nothing), *Smoothness Fade Start* 0.35, *Max Ray Length* 60, *Max Ray Steps* 128, *Roughness Scale* −3 (sharp reflections, stretched into streaks). SSR can only reflect what is on screen: an object outside the frame, or hidden behind another, is missing from the reflection.
 2. **A planar reflection** for the ground. A second camera, mirrored below the ground, renders the scene upside down into a texture, and the wet-ground shader reads it. This reflects the haze, which SSR cannot capture well on a rough, bumpy surface.
    - An empty GameObject `Planar Reflection` with the **Planar Reflection** script: *Source* the Main Camera, *Plane Height* 0, *Resolution Scale* 0.5. The script creates its own child `Reflection Camera`.
-   - Its *Culling Mask* leaves out the **Water** layer, so the ground does not block the view from below. Its *Volume Mask* is Water too: it uses only a second Volume, `Planar Reflection Volume (fog only)`, placed on the Water layer, whose profile has the fog and nothing else (no colour grading, so the grade is not applied twice).
+   - Its *Culling Mask* leaves out the **Water** layer, so the ground does not block the view from below. Its *Volume Mask* is Water too: it uses only a second Volume, `Planar Reflection Volume (fog only)`, placed on the Water layer, whose profile has the fog, with the other effects switched off (so the grade is not applied twice).
    - *Reflect Sky* off: where the mirrored camera sees the sky, it sees black.
-   - In the ground material: *Planar Reflection Strength* 3.5, *Distortion by the normal* 0.03, *Vertical stretch* 0.35 (the long vertical streaks of light on wet asphalt). *Smoothness seen by SSR* 0, so SSR does not reflect on the ground a second time.
+   - In the ground material: *Planar Reflection Strength* 3.5 (already in the material; the slider stops at 2), *Distortion by the normal* 0.03, *Vertical stretch* 0.35 (the long vertical streaks of light on wet asphalt). *Smoothness seen by SSR* 0, so SSR does not reflect on the ground a second time.
 
 **Save the scene.**
 
 ## 12 · The rain
 
-The rain is four **Particle Systems** (*GameObject › Effects › Particle System*) under an empty `Rain` at y = 12, turned −25° like the station. They are four boxes around the canopy, so no drop starts above it and the space under the canopy stays dry.
+The rain is four **Particle Systems** (*GameObject › Visual Effects › Particle System*) under an empty `Rain` at y = 12, turned −25° like the station. They are four boxes around the canopy, so no drop starts above it and the space under the canopy stays dry.
 
-| Emitter | Centre (local) | Box size (m) | Rate over Time |
-|---|---|---|---|
-| Rain Front | (0, 0, −16.95) | 36 × 26.1 | 11 275 |
-| Rain Back | (0, 0, 10.95) | 36 × 14.1 | 6091 |
-| Rain Left | (−11.4, 0, 0) | 13.2 × 7.8 | 1236 |
-| Rain Right | (11.4, 0, 0) | 13.2 × 7.8 | 1236 |
+| Emitter | Centre (local) | Box size (m) | Rate over Time | Max Particles |
+|---|---|---|---|---|
+| Rain Front | (0, 0, −16.95) | 36 × 26.1 | 11 275 | 16 537 |
+| Rain Back | (0, 0, 10.95) | 36 × 14.1 | 6091 | 8934 |
+| Rain Left | (−11.4, 0, 0) | 13.2 × 7.8 | 1236 | 1813 |
+| Rain Right | (11.4, 0, 0) | 13.2 × 7.8 | 1236 | 1813 |
 
-1. **Main module:** Start Lifetime 1.33 s, Start Size 0.02 (2 cm). The drops fall from 12 m at 9 m/s, so they die exactly at the ground.
+1. **Main module:** *Looping*, *Prewarm* and *Play On Awake* on, Start Lifetime 1.33 s, Start Speed 0, Start Size 0.02 (2 cm), *Max Particles* from the table (the default of 1000 would cut the rain). The drops fall from 12 m at 9 m/s, so they die exactly at the ground.
 2. **Shape:** Box, with the size from the table, flat.
-3. **Velocity over Lifetime:** (0.5, −9, 0.15): straight down with a slight slant.
-4. **Renderer:** *Render Mode: Stretched Billboard*, *Velocity Scale* 0.06, so each drop is drawn as a streak in the direction it falls. Material `GS-Rain-Streak`: *Universal Render Pipeline/Particles/Lit*, Transparent, *Blend Mode: Additive*, alpha 0.4. Lit particles take the colour of the lights they pass through: the drops shine cyan under the canopy lights and warm near the kiosk.
-5. **The splashes.** A child Particle System `Splash`, used as a **Sub Emitter** of the rain on *Death*: 1 to 3 splashes per drop, lifetime 0.12 to 0.25 s, size 2 to 4 cm, *Shape: Hemisphere*, *Gravity Modifier* 1.5. Material `GS-Rain-Splash`.
+3. **Velocity over Lifetime:** *Space: World*, (0.5, −9, 0.15): straight down with a slight slant.
+4. **Renderer:** *Render Mode: Stretched Billboard*, *Speed Scale* 0.06, so each drop is drawn as a streak in the direction it falls. Material `GS-Rain-Streak`: *Universal Render Pipeline/Particles/Lit*, Transparent, *Blend Mode: Additive*, alpha 0.4. Lit particles take the colour of the lights they pass through: the drops shine cyan under the canopy lights and warm near the kiosk.
+5. **The splashes.** A child Particle System `Splash`, used as a **Sub Emitter** of the rain on *Death*: *Looping* off, a burst of 1 to 3 splashes per drop, lifetime 0.12 to 0.25 s, size 2 to 4 cm, speed 0.6 to 1.3, *Shape: Hemisphere*, *Gravity Modifier* 1.5. Material `GS-Rain-Splash`.
 
 **In the Editor.** The rain moves only while one of its Particle Systems is selected, or in Play mode.
 

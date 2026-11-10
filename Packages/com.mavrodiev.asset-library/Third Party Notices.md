@@ -37,6 +37,10 @@ Each set sits in `Textures/<source>/<set>/`. The `_MetallicSmoothness.png` file 
 | `Textures/PolyHaven/floor_tiles_08/` | Poly Haven | https://polyhaven.com/a/floor_tiles_08 | CC0 1.0 |
 | `Textures/PolyHaven/large_floor_tiles_02/` | Poly Haven | https://polyhaven.com/a/large_floor_tiles_02 | CC0 1.0 |
 | `Textures/PolyHaven/plaster_grey_04/` | Poly Haven | https://polyhaven.com/a/plaster_grey_04 | CC0 1.0 |
+| `Textures/PolyHaven/forrest_ground_01/` (the `_mask_1k.png` packed by script from the set's own maps) | Rob Tuytel, Poly Haven | https://polyhaven.com/a/forrest_ground_01 | CC0 1.0 |
+| `Textures/PolyHaven/mossy_rock/` (the same) | Rob Tuytel, Poly Haven | https://polyhaven.com/a/mossy_rock | CC0 1.0 |
+| `Textures/PolyHaven/rocky_trail/` (the same) | Amal Kumar, Poly Haven | https://polyhaven.com/a/rocky_trail | CC0 1.0 |
+| `Textures/PolyHaven/snow_02/` (the same) | Rob Tuytel, Poly Haven | https://polyhaven.com/a/snow_02 | CC0 1.0 |
 
 ## HDRIs
 
@@ -76,3 +80,29 @@ Each file sits in `HDRIs/`, downloaded at 2K as `.hdr` on 2026-10-27 and importe
 | Item | Author | Source | Licence |
 |---|---|---|---|
 | `Rocks/Rock-01…03` (meshes and prefabs), `Rocks/M_Rock-Placeholder.mat` | Petar Mavrodiev (made by script in the Workshop, `TerrainPlaygroundBuilder.MakeRocks`); placeholders, to be replaced by CC0 scans | Workshop | my own |
+| `Rocks/Mossy/` (three rocks from the Mossy Rock Environment Pack; re-pivoted and exported to FBX, textures resized to 1K JPG; prefabs and materials made in the Workshop) | rubberduck | https://opengameart.org/content/mossy-rock-environment-pack | CC0 |
+
+## Plants (11-06)
+
+These need credit: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . Keep these lines when passing them on. Changes in all of them: selected variants taken from the pack, re-exported to FBX, textures resized and reformatted; prefabs and materials made in the Workshop.
+
+| Item | Author | Source | Licence |
+|---|---|---|---|
+| `Plants/Oak/`, from "Oak trees pack (17var, LODs, seasons, gameready)" | LOLIPOP (@lolipop_1707) | https://sketchfab.com/3d-models/oak-trees-pack-17var-lods-seasons-gameready-a5e4e64f9f1d4089bdcc6170a9333393 | CC BY 4.0 |
+| `Plants/Pine/`, from "Pine trees pack (lowpoly, game ready, LODs)"; colour and opacity also merged | LOLIPOP (@lolipop_1707) | https://sketchfab.com/3d-models/pine-trees-pack-lowpoly-game-ready-lods-e1e9c07b8e2e445c943fec660beefba2 | CC BY 4.0 |
+| `Plants/Bush/`, from "Bush models pack (gameready, LODs)" | LOLIPOP (@lolipop_1707) | https://sketchfab.com/3d-models/bush-models-pack-gameready-lods-f2d9ffd3e6a94cf0b9464ccd66a4c2f8 | CC BY 4.0 |
+| `Plants/Grass/`, from "Grass pack (lowpoly, game-ready)" | LOLIPOP (@lolipop_1707) | https://sketchfab.com/3d-models/grass-pack-lowpoly-game-ready-422f42f618d342c6958b02613dc57403 | CC BY 4.0 |
+| `Plants/Dandelion/`, from "Undergrowth pack (lowpoly, game-ready)" | LOLIPOP (@lolipop_1707) | https://sketchfab.com/3d-models/undergrowth-pack-lowpoly-game-ready-c98b4c1a15aa447a97cb76df127c1c78 | CC BY 4.0 |
+
+## Terrain layers (11-06)
+
+| Item | Author | Source | Licence |
+|---|---|---|---|
+| `TerrainLayers/TL_Forest-Ground`, `TL_Rocky-Trail`, `TL_Mossy-Rock`, `TL_Snow` | Petar Mavrodiev | Workshop; they use the Poly Haven sets above | my own |
+
+## Heightmaps and stamp brushes (11-06)
+
+| Item | Author | Source | Licence |
+|---|---|---|---|
+| `Textures/ambientCG/Terrain001/`, `Terrain002/`, `Terrain003/` (from the 2K EXR: averaged to 1K, levels stretched to the full range, saved as 16-bit PNG) | ambientCG | https://ambientcg.com/view?id=Terrain001 · https://ambientcg.com/view?id=Terrain002 · https://ambientcg.com/view?id=Terrain003 | CC0 1.0 |
+| `TerrainBrushes/T_Terrainstamp_Ridge`, `_Mountain`, `_Crater` (from those three, faded to black at the edges) and their `.brush` assets | Petar Mavrodiev (made by script in the Workshop) | derived from the ambientCG sets above | CC0 sources; the derived files are my own |

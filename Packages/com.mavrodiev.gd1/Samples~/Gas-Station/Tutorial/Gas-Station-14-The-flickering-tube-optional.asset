@@ -1,24 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6703403550561493469
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: '<i>Fixture 1</i>, the one nearest the camera, flickers like a failing fluorescent tube. The <b>Tube Flicker</b> script on it drives the three lights of the fixture and its own tube material (<i>GS-Tube-Glass-Flicker</i>, a copy of <i>GS-Tube-Glass</i>) together: mostly on, with a burst of short drop-outs every few seconds. <i>Emission Property</i> is <i>_EmissionColor</i>. It runs in the Editor too, so the scene shows as changed while it is open.'
---- !u!114 &-855489730292746033
+--- !u!114 &-8754540124815273591
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,7 +18,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -6703403550561493469}
+  - {fileID: -7354577260650969203}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -92,6 +74,24 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &-7354577260650969203
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: '<i>Fixture 1</i>, the one nearest the camera, flickers like a failing fluorescent tube. The <b>Tube Flicker</b> script on it drives the three lights of the fixture and its own tube material (<i>GS-Tube-Glass-Flicker</i>, a copy of <i>GS-Tube-Glass</i>) together: mostly on, with a burst of short drop-outs every few seconds. <i>Emission Property</i> is <i>_EmissionColor</i>. It runs in the Editor too, so the scene shows as changed while it is open.'
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_LessonId: f98f81de89d043f9a54c0f74f6ccbad9
   m_Pages:
     m_Items:
-    - {fileID: -855489730292746033}
+    - {fileID: -8754540124815273591}
   m_SceneManagementBehavior: 1
   m_ReturnToPreviousScenes: 1
   m_Scenes: []

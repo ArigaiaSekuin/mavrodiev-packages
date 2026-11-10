@@ -1,42 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8880757562224528472
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: 'Everything is real-time: nothing is baked. Every light, reflection and fog effect updates as soon as a value changes.'
---- !u!114 &-4447444718013889139
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: 'A night gas station in fog and rain: a canopy with six fluorescent fixtures over two fuel pumps, a small kiosk with warm windows, a wet concrete forecourt, haze and light shafts. This tutorial builds it in the order the layers of a look depend on each other: first the objects and their materials, then the camera, the night sky, the lights, the reflections, the fog, the rain and the post-processing. Every layer is saved before the next one starts, so each step can be compared with the one before.'
---- !u!114 &-2760671297640768730
+--- !u!114 &-8693090728726057386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,8 +18,8 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -2213911973277336602}
-  - {fileID: 8170744916532388588}
+  - {fileID: 5468839807232638699}
+  - {fileID: -3993106562355392687}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -111,7 +75,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &-2213911973277336602
+--- !u!114 &-4419149808208300579
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,7 +92,25 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: "<b>The Hierarchy by layer.</b> In the finished scene, the Hierarchy has one parent per layer, numbered like the sections of this tutorial: <i>1-4 \xB7 Objects</i>, <i>6 \xB7 Wet Ground</i>, <i>7 \xB7 Camera</i>, <i>9 \xB7 Lights</i>, <i>10 \xB7 Fog</i>, <i>11 \xB7 Reflections</i>, <i>12 \xB7 Rain</i>, and <i>10-13 \xB7 Volume (fog, reflections, post)</i>. Switch a parent off (the checkbox at the top of the Inspector) to see what its layer adds to the frame. Build your own scene with the same parents."
+    m_Untranslated: 'A night gas station in fog and rain: a canopy with six fluorescent fixtures over two fuel pumps, a small kiosk with warm windows, a wet concrete forecourt, haze and light shafts. This tutorial builds it in the order the layers of a look depend on each other: first the objects and their materials, then the camera, the night sky, the lights, the reflections, the fog, the rain and the post-processing. Every layer is saved before the next one starts, so each step can be compared with the one before.'
+--- !u!114 &-3993106562355392687
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: The finished scene is <i>Gas-Station.unity</i>. Open it first, look at it from the camera, then build your own version in a new scene next to it. The scene's assets (materials, textures, the pump prefab, the scripts and shaders) are in the same folder, and every step below uses them.
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,8 +129,8 @@ MonoBehaviour:
   m_LessonId: c6b7b8a01da74b418d8a5c0c839827a4
   m_Pages:
     m_Items:
-    - {fileID: 7308855046049395091}
-    - {fileID: -2760671297640768730}
+    - {fileID: 5688124733940807104}
+    - {fileID: -8693090728726057386}
   m_SceneManagementBehavior: 1
   m_ReturnToPreviousScenes: 1
   m_Scenes: []
@@ -189,7 +171,43 @@ MonoBehaviour:
   m_Scene: {fileID: 0}
   m_TutorialTitle: 
   m_FaqEntries: []
---- !u!114 &7308855046049395091
+--- !u!114 &402029920087267675
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: 'Everything is real-time: nothing is baked. Every light, reflection and fog effect updates as soon as a value changes.'
+--- !u!114 &5468839807232638699
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "<b>The Hierarchy by layer.</b> In the finished scene, the Hierarchy has one parent per layer, numbered like the sections of this tutorial: <i>1-4 \xB7 Objects</i>, <i>6 \xB7 Wet Ground</i>, <i>7 \xB7 Camera</i>, <i>9 \xB7 Lights</i>, <i>10 \xB7 Fog</i>, <i>11 \xB7 Reflections</i>, <i>12 \xB7 Rain</i>, and <i>10-13 \xB7 Volume (fog, reflections, post)</i>. Switch a parent off (the checkbox at the top of the Inspector) to see what its layer adds to the frame. Build your own scene with the same parents."
+--- !u!114 &5688124733940807104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,8 +225,8 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -4447444718013889139}
-  - {fileID: -8880757562224528472}
+  - {fileID: -4419149808208300579}
+  - {fileID: 402029920087267675}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -264,21 +282,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &8170744916532388588
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: The finished scene is <i>Gas-Station.unity</i>. Open it first, look at it from the camera, then build your own version in a new scene next to it. The scene's assets (materials, textures, the pump prefab, the scripts and shaders) are in the same folder, and every step below uses them.

@@ -24,7 +24,7 @@ namespace Mavrodiev.Playground.GasStation
                 NewPage("8.2 · Environment Lighting",
                     Text("<b>Environment Lighting:</b> <i>Source: Gradient</i>, with the same three colours as the sky (Sky, Equator, Ground). This is the light every surface receives from all around. At night it is low and coloured, never black.")),
                 NewPage("8.3 · Environment Reflections",
-                    Text("<b>Environment Reflections:</b> <i>Source: Custom</i>, no cubemap, so the shiny surfaces reflect nothing from the sky. The wet ground will only mirror the station and its haze.")),
+                    Text("<b>Environment Reflections:</b> <i>Source: Custom</i>, no cubemap, <i>Intensity Multiplier</i> 0, so the shiny surfaces reflect nothing from the sky. The wet ground will only mirror the station and its haze.")),
                 NewPage("8.4 · Sun Source",
                     Text("<b>Sun Source:</b> leave it empty for now; § 10 sets it.")),
                 NewPage("8.5 · Lighting Settings",

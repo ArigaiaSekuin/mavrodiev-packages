@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Terrain_Grey-By-Height
+  m_Shader: {fileID: 4800000, guid: 31eb562dc5006d64ba54203380202311, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BlendRange: 0.3
+    - _HighHeight: 1
+    - _LowHeight: 0.4
+    - _Smoothness: 0.1
+    - _SteepAngle: 90
+    - _SteepBlend: 0
+    m_Colors:
+    - _HighColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    - _LowColor: {r: 0.12, g: 0.12, b: 0.12, a: 1}
+    - _MidColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SteepColor: {r: 0.34999996, g: 0.32999998, b: 0.31999996, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

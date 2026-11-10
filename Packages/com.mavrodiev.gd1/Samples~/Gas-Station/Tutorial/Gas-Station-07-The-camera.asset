@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8081412009273690939
+--- !u!114 &-8118770692434166706
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17,8 +17,44 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: "<b>Main Camera:</b> position (\u22120.3, 1.3, \u221226.5), rotation (\u22123.7, 0.6, 0): eye height, looking very slightly up. <b>Field of View 40</b> (vertical). Clipping Planes: Near 0.05, Far 300."
---- !u!114 &-6836998576462520499
+    m_Untranslated: "<b>The frame.</b> In the Game view, set the resolution to <b>1920 \xD7 1080</b> (16:9)."
+--- !u!114 &-6350970157864285027
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: The frame is decided before the lights, because lights are placed for what the camera sees.
+--- !u!114 &-5331007046759001619
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: <b>The reference overlay (optional).</b> The <i>Reference Overlay</i> canvas shows the reference image, semi-transparent, over the Game view, to match the frame. Switch it off when the frame is right.
+--- !u!114 &-4290498046370641294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,7 +72,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -307417368094704414}
+  - {fileID: -2608659778639880758}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -92,7 +128,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &-6725652533540898467
+--- !u!114 &-3598477474433714525
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,44 +145,8 @@ MonoBehaviour:
     m_UnmaskedViews: []
     MaskPreset: {fileID: 0}
   Text:
-    m_Untranslated: The frame is decided before the lights, because lights are placed for what the camera sees.
---- !u!114 &-4860297681402848962
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: <b>The reference overlay (optional).</b> The <i>Reference Overlay</i> canvas shows the reference image, semi-transparent, over the Game view, to match the frame. Switch it off when the frame is right.
---- !u!114 &-2603292369363689541
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
-  m_Name: NarrativeParagraph
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
-  m_MaskingSettings:
-    m_MaskingEnabled: 0
-    m_UnmaskedViews: []
-    MaskPreset: {fileID: 0}
-  Text:
-    m_Untranslated: "<b>The frame.</b> In the Game view, set the resolution to <b>1920 \xD7 1080</b> (16:9)."
---- !u!114 &-307417368094704414
+    m_Untranslated: "<b>Main Camera:</b> position (\u22120.3, 1.3, \u221226.5), rotation (\u22123.7, 0.6, 0): eye height, looking very slightly up. <b>Field of View 40</b> (vertical). Clipping Planes: Near 0.05, Far 300."
+--- !u!114 &-2608659778639880758
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,6 +164,80 @@ MonoBehaviour:
     MaskPreset: {fileID: 0}
   Text:
     m_Untranslated: '<b>Rendering.</b> In the camera''s <i>Rendering</i> section: <b>Post Processing</b> on, <b>Anti-aliasing: Temporal Anti-aliasing (TAA)</b>, <b>Dithering</b> on (it hides banding in the dark gradients of the fog).'
+--- !u!114 &-1922534462497143752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 1_71  The frame
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
+  <IndexInTutorial>k__BackingField: 1
+  Title:
+    m_Untranslated: "7.1 \xB7 The frame"
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -8118770692434166706}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,11 +256,11 @@ MonoBehaviour:
   m_LessonId: 32eca202fb5a4d0e8a180566c1418f13
   m_Pages:
     m_Items:
-    - {fileID: 6028160338162109249}
-    - {fileID: 8688960183745287099}
-    - {fileID: 3356214611884519329}
-    - {fileID: -6836998576462520499}
-    - {fileID: 5314374505288406421}
+    - {fileID: 7029064938162560179}
+    - {fileID: -1922534462497143752}
+    - {fileID: 1306702894395660906}
+    - {fileID: -4290498046370641294}
+    - {fileID: 5529618841909311872}
   m_SceneManagementBehavior: 1
   m_ReturnToPreviousScenes: 1
   m_Scenes: []
@@ -227,7 +301,7 @@ MonoBehaviour:
   m_Scene: {fileID: 0}
   m_TutorialTitle: 
   m_FaqEntries: []
---- !u!114 &3356214611884519329
+--- !u!114 &1306702894395660906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,7 +319,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -8081412009273690939}
+  - {fileID: -3598477474433714525}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -301,7 +375,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &5314374505288406421
+--- !u!114 &5529618841909311872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -319,7 +393,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -4860297681402848962}
+  - {fileID: -5331007046759001619}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -375,7 +449,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &6028160338162109249
+--- !u!114 &7029064938162560179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,81 +467,7 @@ MonoBehaviour:
   m_LegacyParagraphs:
     m_Items: []
   m_PageParagraphs:
-  - {fileID: -6725652533540898467}
-  m_CameraSettings:
-    m_CameraMode: 0
-    m_FocusMode: 0
-    m_Orthographic: 0
-    m_Size: 0
-    m_Pivot: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
-    m_FrameObject:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_Enabled: 0
-  NextButton:
-    m_Untranslated: Next
-  DoneButton:
-    m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
-  m_FaqEntries: []
-  m_AutoAdvance: 0
-  Showing:
-    m_PersistentCalls:
-      m_Calls: []
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
-  Staying:
-    m_PersistentCalls:
-      m_Calls: []
-  CriteriaValidated:
-    m_PersistentCalls:
-      m_Calls: []
-  MaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  NonMaskingSettingsChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforePageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnAfterPageShown:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTutorialPageStay:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_NextButton: Next
-  m_DoneButton: Done
---- !u!114 &8688960183745287099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 1_71  The frame
-  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.TutorialPage
-  <IndexInTutorial>k__BackingField: 1
-  Title:
-    m_Untranslated: "7.1 \xB7 The frame"
-  m_LegacyParagraphs:
-    m_Items: []
-  m_PageParagraphs:
-  - {fileID: -2603292369363689541}
+  - {fileID: -6350970157864285027}
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0

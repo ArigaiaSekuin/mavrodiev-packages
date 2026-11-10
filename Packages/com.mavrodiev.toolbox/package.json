@@ -1,6 +1,6 @@
 {
   "name": "com.mavrodiev.toolbox",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "displayName": "Toolbox",
   "description": "Low-level Unity tools (code, shaders, editor tools), each with a showcase sample.",
   "unity": "6000.0",
@@ -14,7 +14,9 @@
   ],
   "dependencies": {
     "com.unity.render-pipelines.universal": "17.0.3",
-    "com.unity.probuilder": "6.1.3"
+    "com.unity.probuilder": "6.1.3",
+    "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.terrainphysics": "1.0.0"
   },
   "samples": [
     {
@@ -46,6 +48,11 @@
       "displayName": "Surfaces Showcase",
       "description": "",
       "path": "Samples~/Surfaces-Showcase"
+    },
+    {
+      "displayName": "Terrain Showcase",
+      "description": "Terrain Layer Rules and Terrain Tree And Grass Rules: paint layers and place trees, rocks and grass by height and slope.",
+      "path": "Samples~/Terrain-Showcase"
     },
     {
       "displayName": "Texture Tools Showcase",

@@ -37243,7 +37243,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44034,7 +44034,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52013,7 +52013,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54155,7 +54155,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -59012,7 +59012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62207,7 +62207,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -68091,7 +68091,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72045,7 +72045,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78322,7 +78322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87418,7 +87418,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 1
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -95378,7 +95378,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99185,7 +99185,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 1
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -103387,7 +103387,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109260,7 +109260,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31fc2db001ad8d64d9e358b8f224a0ed, type: 2}
+  - {fileID: 2100000, guid: 9569fe995cd35e445a26ccaa0c64eed3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -117025,7 +117025,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 1
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -119503,7 +119503,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 1
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:

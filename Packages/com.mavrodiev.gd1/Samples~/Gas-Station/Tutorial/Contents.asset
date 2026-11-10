@@ -39,7 +39,7 @@ MonoBehaviour:
   - Heading:
       m_Untranslated: "1 \xB7 The ground and the layout"
     Text:
-      m_Untranslated: "All the geometry is made with ProBuilder (Tools \u203A ProBuilder \u203A ProBuilder Window)."
+      m_Untranslated: "All the geometry is made with ProBuilder (GameObject \u203A ProBuilder \u203A Cube)."
     Type: 0
     Url: 
     Metadata: 
@@ -138,7 +138,7 @@ MonoBehaviour:
   - Heading:
       m_Untranslated: "12 \xB7 The rain"
     Text:
-      m_Untranslated: "The rain is four Particle Systems (GameObject \u203A Effects \u203A Particle System) under an empty Rain at y = 12, turned \u221225\xB0 like the station."
+      m_Untranslated: "The rain is four Particle Systems (GameObject \u203A Visual Effects \u203A Particle System) under an empty Rain at y = 12, turned \u221225\xB0 like the station."
     Type: 0
     Url: 
     Metadata: 

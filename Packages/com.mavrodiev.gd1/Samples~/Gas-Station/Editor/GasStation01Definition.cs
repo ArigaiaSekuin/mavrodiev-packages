@@ -8,7 +8,7 @@ namespace Mavrodiev.Playground.GasStation
     {
         public override string Id => "Gas-Station-01-The-ground-and-the-layout";
         public override string Title => "1 · The ground and the layout";
-        public override string Description => "All the geometry is made with ProBuilder (Tools › ProBuilder › ProBuilder Window).";
+        public override string Description => "All the geometry is made with ProBuilder (GameObject › ProBuilder › Cube).";
         public override int Order => 2;
         public override string ContentsTitle => "Gas Station";
         public override string ContentsSubtitle => "Building the scene layer by layer";
@@ -18,9 +18,9 @@ namespace Mavrodiev.Playground.GasStation
             return new List<Page>
             {
                 NewPage("1 · The ground and the layout",
-                    Text("All the geometry is made with ProBuilder (<i>Tools › ProBuilder › ProBuilder Window</i>). Sizes are in metres; one Unity unit is one metre.")),
+                    Text("All the geometry is made with ProBuilder (<i>GameObject › ProBuilder › Cube</i>). Sizes are in metres; one Unity unit is one metre.")),
                 NewPage("1.1 · The forecourt",
-                    Text("<b>The forecourt.</b> A ProBuilder cube 60 × 0.1 × 60 m, its top at y = 0, named <i>Ground</i> under an empty parent <i>Forecourt</i>. Its UVs are set to world space in metres (<i>UV Editor › Auto › World Space</i>), so a texture's tiling is the same on every face and size.")),
+                    Text("<b>The forecourt.</b> A ProBuilder cube 60 × 0.1 × 60 m, its top at y = 0, named <i>Ground</i> under an empty parent <i>Forecourt</i>. Its UVs are set to world space in metres (<i>Tools › ProBuilder › Editors › Open UV Editor</i>, all faces selected, <i>Special › World Space</i>), so a texture's tiling is the same on every face and size.")),
                 NewPage("1.2 · The far ground",
                     Text("<b>The far ground.</b> A large flat plane (400 m) just below the forecourt (y = −0.08), named <i>Far Ground</i>. It fills the horizon behind the fog.")),
                 NewPage("1.3 · The station's centre",
