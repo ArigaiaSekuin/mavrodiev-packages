@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1 — 2026-11-10
+Toolbox 1.3.1 (the wind shader fixed). Every plant material now also comes as a plain URP Lit copy, "-No-Wind" (for example M_Oak-Leaves-No-Wind): the same textures and settings, no sway.
+
 ## 1.3.0 — 2026-11-10
 More terrain: four terrain layers (meadow grass, sand, cliff rock, mud; eight in all), four heightmaps from Motion Forge (rolling hills, a ridge, rocky land with rivers, a canyon with a river), and three stamp brushes (hill, rocky peaks, mesa). Two nature loops (forest birds and wind, a calm stream) and a natural sky HDRI. The plants now sway in the wind (the Foliage Wind shader of Toolbox 1.3.0). All CC0 or my own; credits in Third Party Notices.
 

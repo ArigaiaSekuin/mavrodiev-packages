@@ -61,3 +61,4 @@ My own, for the record: every other shader in `Shaders/` (Common, Surfaces, Ligh
 |---|---|---|---|
 | `Shaders/Nature/FoliageWind.shader` | Unity Technologies (URP's `Lit.shader`, URP 17.3 / Unity 6.3), with the wind added by Petar Mavrodiev (AI-assisted) | the Universal Render Pipeline package | Unity Companion License, as URP itself; the changes are my own |
 | `Shaders/Nature/FoliageWind.hlsl` | Petar Mavrodiev (AI-assisted) | written for this package | my own |
+| `Shaders/Nature/FoliageLitInput.hlsl` | Unity Technologies (URP's `LitInput.hlsl`, URP 17.3 / Unity 6.3), with the wind settings added to its material buffer and two surface-type helpers for Unity 6.5+ | the Universal Render Pipeline package | Unity Companion License, as URP itself; the changes are my own |

@@ -6,12 +6,7 @@
 #ifndef MAVRODIEV_FOLIAGE_WIND_INCLUDED
 #define MAVRODIEV_FOLIAGE_WIND_INCLUDED
 
-// Outside the material's constant buffer: simple, at the cost of the SRP Batcher for these materials.
-float4 _WindDirection;   // xz: where the wind blows to, in the world
-float  _WindStrength;    // metres a vertex moves at Bend Height
-float  _WindSpeed;       // sways per second, roughly
-float  _WindGustSize;    // metres between two gusts on the ground
-float  _WindBendHeight;  // metres above the pivot where the sway is full
+// The five _Wind settings are declared in FoliageLitInput.hlsl, inside the material's constant buffer.
 
 float3 FoliageWindOffsetOS(float3 positionOS)
 {

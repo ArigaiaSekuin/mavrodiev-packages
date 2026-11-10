@@ -184,7 +184,7 @@ Shader "Mavrodiev/Foliage Wind"
             #pragma instancing_options renderinglayer
             #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
 
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl"
             #define MAVRODIEV_WIND_FORWARD
             #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageWind.hlsl"
@@ -236,7 +236,7 @@ Shader "Mavrodiev/Foliage Wind"
 
             // -------------------------------------
             // Includes
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl"
             #define MAVRODIEV_WIND_SHADOW
             #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageWind.hlsl"
@@ -326,7 +326,7 @@ Shader "Mavrodiev/Foliage Wind"
 
             // -------------------------------------
             // Includes
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl"
             #define MAVRODIEV_WIND_GBUFFER
             #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageWind.hlsl"
@@ -371,7 +371,7 @@ Shader "Mavrodiev/Foliage Wind"
 
             // -------------------------------------
             // Includes
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl"
             #define MAVRODIEV_WIND_DEPTH
             #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageWind.hlsl"
@@ -423,7 +423,7 @@ Shader "Mavrodiev/Foliage Wind"
 
             // -------------------------------------
             // Includes
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl"
             #define MAVRODIEV_WIND_DEPTHNORMALS
             #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageWind.hlsl"
@@ -464,7 +464,7 @@ Shader "Mavrodiev/Foliage Wind"
 
             // -------------------------------------
             // Includes
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl"
 
             ENDHLSL
@@ -501,7 +501,7 @@ Shader "Mavrodiev/Foliage Wind"
 
             // -------------------------------------
             // Includes
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Universal2D.hlsl"
             ENDHLSL
         }
@@ -517,7 +517,7 @@ Shader "Mavrodiev/Foliage Wind"
             #pragma multi_compile _ LOD_FADE_CROSSFADE
             #pragma shader_feature_local_vertex _ADD_PRECOMPUTED_VELOCITY
 
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ObjectMotionVectors.hlsl"
             ENDHLSL
         }
@@ -543,7 +543,7 @@ Shader "Mavrodiev/Foliage Wind"
             #pragma shader_feature_local_vertex _ADD_PRECOMPUTED_VELOCITY
             #define APPLICATION_SPACE_WARP_MOTION 1
 
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
+            #include "Packages/com.mavrodiev.toolbox/Shaders/Nature/FoliageLitInput.hlsl"
             #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ObjectMotionVectors.hlsl"
             ENDHLSL
         }
